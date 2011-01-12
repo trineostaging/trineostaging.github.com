@@ -9,7 +9,7 @@
 #trineo-header li { list-style-type: none; }
 #trineo-header *:focus { outline: 0; }
 #trineo-header #trineo-logo { margin: 20px 0 15px 25px; float: left; }
-#trineo-header #trineo-logo a { display: block; text-indent: -9999px; width: 177px; height: 56px; overflow: hidden; background-image: url(https://nav.heroku.com/images/logos/logo.png); background-repeat: no-repeat; }
+#trineo-header #trineo-logo a { display: block; text-indent: -9999px; width: 177px; height: 56px; overflow: hidden; background-repeat: no-repeat; }
 #trineo-header ul#trineo-account-nav, #trineo-header ul#trineo-section-nav { list-style-type: none; overflow: hidden; display: inline-block; float: right; margin-top: 30px; padding: 10px; }
 #trineo-header ul#trineo-account-nav, #trineo-header ul#trineo-section-nav { display: block; }
 #trineo-header ul#trineo-account-nav li, #trineo-header ul#trineo-section-nav li { float: left; margin-left: 10px; }
