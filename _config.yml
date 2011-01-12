@@ -1,0 +1,7 @@
+permalink: /:year/:month/:title
+auto: true
+server: true
+server_port: 3000
+pygments: true
+paginate: 5
+lsi: false

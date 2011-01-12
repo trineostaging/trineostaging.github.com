@@ -1,0 +1,9 @@
+---
+layout: post
+title: "playing with jekyll"
+categories:
+- news
+- test
+---
+
+This is a test to see how this system works...

@@ -1,0 +1,14 @@
+---
+layout: default
+title: "Recent News"
+---
+<h2 id="subtitle">The Trineo Blog</h2>
+{% for post in site.categories.news limit:2 %}
+<div class="post">
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1> 
+    {{ post.content }}
+    <p class="signoff"> 
+      &mdash;<a href="{{ post.url }}">{{ post.date | date: "%d %b, %Y" }}</a>
+    </p>
+  </div>
+{% endfor %}

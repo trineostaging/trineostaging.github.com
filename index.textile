@@ -1,0 +1,57 @@
+---
+layout: default
+title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
+---
+<div class='slider' id='intro'>
+  <div class='nav slider-nav'>
+    <ul>
+      <li>
+        <a href='#what_is_trineo' class="active">What Is Trineo?</a>
+      </li>
+      <li>
+        <a href='#our_philosophy' class=" ">Our Philosophy</a>
+      </li>
+      <li>
+        <a href='#our_crew' class=" ">Our Crew</a>
+      </li>
+    </ul>
+  </div>
+  <div class='slider-bounds'>
+    <div class='shadow'></div>
+    <div class='slider-canvas'>
+      <div class='slide' id='what_is_trineo'>
+        <div class='slide-content'>
+          <h2 class='title'>What Is Trineo?</h2>
+          <div class='description'>
+            <p>Trineo (pronounced trin-eee-oh) is a company that specialises in cloud application development – a new way of building and deploying web apps.</p>
+            <p>Our services are focused on developing business solutions using cloud platforms such as Salesforce.com/Force.com and Ruby on Rails on Heroku.  This lets our team spend 100% of our time focused on writing solutions for our clients, not managing servers, deployment, ongoing operations, or scaling.</p>
+            <p>Trineo was founded in 2008 by Daniel Fowlie, and he joined forces with Abhinav Keswani in early 2010.</p>
+          </div>
+        </div>
+      </div>
+      <div class='slide' id='our_philosophy'>
+        <div class='slide-content'>
+          <h2 class='title'>Our Philosophy</h2>
+          <div class='description'>
+            <h3>Rapid Delivery</h3>
+              <p>We work closely with our customers, use highly effective tools for project management, practice complete transparency - striving to deliver at the highest standard with a smart approach that does away with bureaucratic process.</p>
+            <h3>Continuous Improvement</h3>
+              <p>We practice continual self and solicited critique to find better ways of doing things, while adapting to new techniques and improving upon our craft to deliver the very best we can.</p>
+            <h3>Quality</h3>
+              <p>Our work is guaranteed to be delivered at a high quality.  We employ techniques to deliver rapidly, in bite sized chunks and our frequent automated testing ensures we deliver solutions that match our customer&#8217;s expectations.</p>
+          </div>
+        </div>
+      </div>
+      <div class='slide' id='our_crew'>
+        <div class='slide-content'>
+          <h2 class='title'>Our Crew</h2>
+          <div class='description'>
+            <p>We are a small team of 7 people, 4 full time and 3 part time.</p>
+            <p>Don't let our size fool you - between us we pack quite a punch.  In our eyes, a small, nimble and motivated team will always deliver better solutions, to budget and within allotted timeframes.</p>
+            <p>In past lives, our team has worked in a variety of roles, in diverse industries - working on large scale web infrastructure/platforms and data processing solutions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+---
+layout: default
+title: "Second test news article"
+categories:
+- news
+---
+This is a test

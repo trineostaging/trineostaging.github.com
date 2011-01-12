@@ -1,0 +1,50 @@
+---
+layout: default
+title: "Professional Services"
+---
+<div class='slider' id='intro'>
+  <div class='slider-nav'>
+    <ul>
+      <li>
+        <a href='#salesforce'>Salesforce.com</a>
+      </li>
+      <li>
+        <a href='#ruby_on_rails'>Custom Solutions</a>
+      </li>
+      <li>
+        <a href='#atlassian'>Collaboration suite</a>
+      </li>
+    </ul>
+  </div>
+  <div class='slider-bounds'>
+    <div class='shadow'></div>
+    <div class='slider-canvas'>
+      <div class='slide' id='salesforce'>
+        <div class='slide-content'>
+          <h2 class='title'>Customer Relationship Management</h2>
+          <div class='description'>
+            <h3>Customer Relationship Management // Business Process Automation</h2>
+            <p>Your customers are the heart of your business.  It makes sense then that at the heart of your business software is a robust, configurable and extendable customer relationship management system.</p>
+            <p>We believe that system is <a href="http://salesforce.com">Salesforce.com</a>.</p>
+            <p>When it comes to skill and diverse experience with Salesforce.com deployments, Trineo are one of the leaders in New Zealand.  Our experience spans multiple industry verticals, from the small to the biggest APAC deployments of Salesforce.com - one user to thousands and everything in between.</p>
+          </div>
+        </div>
+      </div>
+      <div class='slide' id='ruby_on_rails'>
+        <div class='slide-content'>
+          <div class='description'>
+            <h2 class='title'>Custom Solutions // Ruby on Rails // Heroku</h2>
+            <h3>Custom Solutions // Ruby on Rails // Heroku</h2>
+          </div>
+        </div>
+      </div>
+      <div class='slide' id='atlassian'>
+        <div class='slide-content'>
+          <h2 class='title'>Atlassian Collaboration Suite</h2>
+          <div class='description'>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

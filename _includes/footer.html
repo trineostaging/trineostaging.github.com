@@ -1,0 +1,62 @@
+<div id='trineo-footer'>
+  <div class='container'>
+    <h2 class='hidden'>Sitemap</h2>
+    <!-- / TRINEO -->
+    <div class='nav sixth' id='trineo-footer-company'>
+      <h3>Trineo</h3>
+      <ul>
+        <li>
+          <a href='/about.html'>About</a>
+        </li>
+        <li>
+          <a href='/jobs.html'>Jobs</a>
+        </li>
+      </ul>
+    </div>
+    <!-- / BUSINESS -->
+    <div class='nav sixth' id='trineo-footer-business'>
+      <h3>Business</h3>
+      <ul>
+        <li>
+          <a href='/why.html'>Why Trineo</a>
+        </li>
+        <li>
+          <a href='/success.html'>Success Stories</a>
+        </li>
+        <li>
+          <a href='/news.html'>News & Events</a>
+        </li>
+        <li>
+          <a href='/blog.html'>Blog</a>
+        </li>
+      </ul>
+    </div>
+    <!-- / PRODUCTS -->
+    <div class='nav sixth' id='trineo-footer-platform'>
+      <h3>Products</h3>
+      <ul>
+        <li>
+          <a href='/products.html#dime_xero_edition'>Dime - Xero Edition</a>
+        </li>
+      </ul>
+    </div>
+    <!-- / RESOURCES -->
+    <div class='nav sixth' id='trineo-footer-resources'>
+      <h3>Resources</h3>
+      <ul>
+        <li>
+          <a href='/contact.html' id='trineo-footer-link-contact'>Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="third" id="trineo-footer-pull">
+      <h3><a href="/news.html">Recent News</a></h3>
+      <dl>
+        {% for post in site.categories.news limit:2 %}
+        <dt><a class="title" href="{{ post.url }}">{{ post.title }}</a></dt>
+        <dd>Published: {{ post.date | date: "%d %b, %Y" }}</dd>
+        {% endfor %}
+      </dl>
+    </div>
+  </div>
+</div>
