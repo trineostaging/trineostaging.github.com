@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule dime-xero-edition products.html#dime_xero_edition
