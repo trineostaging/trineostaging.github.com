@@ -1,0 +1,45 @@
+---
+layout: default
+title: About
+---
+<div class='slider' id='intro'>
+  <div class='slider-nav'>
+    <ul>
+      <li>
+        <a href='#dime_xero_edition'>Dime - Xero Edition</a>
+      </li>
+      <li>
+        <a href='#dime_myob_edition'>Dime - MYOB Edition</a>
+      </li>
+    </ul>
+  </div>
+  <div class='slider-bounds'>
+    <div class='shadow'></div>
+    <div class='slider-canvas'>
+      <div class='slide' id='dime_xero_edition'>
+        <div class='slide-content'>
+          <h2 class='title'>Dime - Xero Edition</h2>
+          <div class='description'>
+            <h3>Dime - Xero Edition</h3>
+            <p>Dime is a Salesforce library which integrates with API's offered by popular online accounting platforms.</p>
+            <p>Developers and analysts need not worry about how to retrieve data from their accounting platform and can instead focus on what they will do with it.</p>
+            <p>This edition of Dime integrates Salesforce with the Xero onine accounting platform.</p>
+            <p>Dime is listed on the <a href="http://appexchange.salesforce.com/listingDetail?listingId=a0N30000003J4HdEAK">Salesforce.com AppExchange</a> - install a trial edition now.</p>
+          </div>
+        </div>
+      </div>
+      <div class='slide' id='dime_myob_edition'>
+        <div class='slide-content'>
+          <h2 class='title'>Dime - MYOB Edition</h2>
+          <div class='description'>
+            <h3>Dime - MYOB Edition</h3>
+            <p>Dime is a Salesforce library which integrates with API's offered by popular online accounting platforms.</p>
+            <p>Developers and analysts need not worry about how to retrieve data from their accounting platform and can instead focus on what they will do with it.</p>
+            <p>This edition of Dime integrates Salesforce with the MYOB onine accounting platform.</p>
+            <p>Dime is listed on the <a href="http://appexchange.salesforce.com/listingDetail?listingId=a0N30000003J4HdEAK">Salesforce.com AppExchange</a> - install a trial edition now.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
