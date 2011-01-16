@@ -266,7 +266,7 @@ html, body {
   vertical-align: baseline;
   background-color: #1c1c1c;
   color: #999999;
-  padding-bottom: 50px;
+  padding-bottom: 0;
   min-width: 1000px;
   background-image: url(/images/pricing/header-shadow.png);
   background-repeat: repeat-x;

@@ -20,7 +20,7 @@ title: Working for Trineo
             <p>At this point we're interested in meeting individuals who have a passion for high quality software development.</p>
             <p>Typically, our workload is well catered for by our existing team, however the nature of what we do demands that we know of good people who will fit well into our humble crew.</p>
             <p>Please do <a href="/contact.html">contact us</a> should you wish to.</p>
-            <p>Send us your github repo, your twitter account, your contributions to open source projects, discussion forums or online communities - show us that you're engaged and involved and we'll be all ears.</p>
+            <p>Point out your github repo, share with us your twitter handle, mention your contributions to open source projects, discussion forums or online communities - show us that you're engaged and involved and we'll be all ears.</p>
           </div>
         </div>
       </div>
