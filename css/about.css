@@ -341,7 +341,7 @@ html body #content form {
       .slider .slider-nav ul li {
         display: block; }
         .slider .slider-nav ul li a {
-          color: #c9c3e6;
+          color: #4fc6e0;
           display: block;
           margin-right: 1px;
           padding: 8px 10px 22px 0;
@@ -349,7 +349,7 @@ html body #content form {
           text-decoration: none;
           font-family: "Corbel", sans-serif; }
           .slider .slider-nav ul li a.active {
-            color: #fff;
+            color: #008eb5;
             font-weight: bold; }
   .slider .slide {
     width: 100%;
@@ -367,7 +367,7 @@ html body #content form {
       position: relative;
       height: 400px;
       font-family: "Corbel", sans-serif;
-      color: #8780b0; }
+      color: #4fc6e0; }
       .slider .slide .slide-content h2 {
         display: none; }
       .slider .slide .slide-content .description {
@@ -377,7 +377,7 @@ html body #content form {
         left: 259px;
         width: 640px; }
       .slider .slide .slide-content h3 {
-        color: #bfb8e5;
+        color: #008eb5;
         font-family: "Corbel", sans-serif;
         line-height: 27px;
         font-size: 20px; }

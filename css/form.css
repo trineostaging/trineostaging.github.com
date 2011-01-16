@@ -1,0 +1,18 @@
+#form-content { color: #c9c3e6; width: 920px; overflow: hidden; margin: auto}
+#form-content a { color: #9e99de; }
+#form-content .content .left { padding-bottom: 40px; display: inline-block; float: left; }
+#form-content .content .left .contacts p { padding: 20px 0 0 30px; }
+#form-content .content .left .panel { clear: both; }
+#form-content .content .left .panel h2 { font-size: 18px; }
+#form-content .content .left .panel h2 small { font-size: 13px; font-family: arial, sans-serif; color: #999999; }
+#form-content .content .left .panel h2 small a { color: #999999; }
+#form-content .content .left .panel form input[type=text], #content .content .left .panel form textarea { width: 500px; }
+#form-content .content .left .panel form fieldset .field { clear: both; }
+#form-content .content .left .panel form fieldset .field.name { float: left; clear: none; padding-left: 21px; }
+#form-content .content .left .panel form fieldset .field.name input[type=text] { width: 232px; }
+#form-content .content .left .panel form fieldset .field.name:first-child { padding-left: 0; }
+#form-content .content .right { float: left; margin-left: 30px; }
+#form-content .content .right .map { display: block; width: 240px; height: 200px; -moz-border-radius: 7px; -webkit-border-radius: 7px; background-image: url(/images/contact/map.png); background-repeat: no-repeat; background-position: -30px center; -moz-box-shadow: 2px 2px 7px #131313; -webkit-box-shadow: 2px 2px 7px #131313; }
+#form-content .content .right .address { margin: 30px 0 0 10px; }
+#form-content .content .right .address p { font-size: 16px; margin-bottom: 8px; }
+#form-content .content .right .address .social { padding-top: 20px; }

@@ -1,0 +1,23 @@
+---
+layout: default
+title: About
+---
+<div id="form-content">
+  <div class='content'>
+    <div class='left'>
+      <div class='panel'>
+        <h2>Thanks for your query...</h2>
+        A member of the Trineo team will be in touch with you shortly.
+      </div>
+    </div>
+
+    <div class='right'>
+        <div class='address'>
+          <p>Heroku, Inc.</p>
+          <p>321 11th Street</p>
+          <p>San Francisco, CA</p>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>

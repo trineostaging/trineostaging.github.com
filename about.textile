@@ -6,7 +6,7 @@ title: About
   <div class='slider-nav'>
     <ul>
       <li>
-        <a href='#what_is_trineo'>What Is Trineo?</a>
+        <a href='#who_is_trineo'>Who Is Trineo?</a>
       </li>
       <li>
         <a href='#our_philosophy'>Our Philosophy</a>
@@ -19,9 +19,9 @@ title: About
   <div class='slider-bounds'>
     <div class='shadow'></div>
     <div class='slider-canvas'>
-      <div class='slide' id='what_is_trineo'>
+      <div class='slide' id='who_is_trineo'>
         <div class='slide-content'>
-          <h2 class='title'>What Is Trineo?</h2>
+          <h2 class='title'>Who Is Trineo?</h2>
           <div class='description'>
             <p>Trineo (pronounced trin-eee-oh) is a company that specialises in cloud application development – a new way of building and deploying web apps.</p>
             <p>Our services are focused on developing business solutions using cloud platforms such as Salesforce.com/Force.com and Ruby on Rails on Heroku.  This lets our team spend 100% of our time focused on writing solutions for our clients, not managing servers, deployment, ongoing operations, or scaling.</p>
