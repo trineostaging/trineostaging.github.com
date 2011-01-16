@@ -356,8 +356,6 @@ html body #content form {
     height: 400px;
     float: left;
     text-align: center;
-    background-image: url(/images/about/pattern-yukiwa_sakura-purple.png);
-    background-repeat: repeat-x;
     background-position: center top; }
     .slider .slide .slide-content {
       text-align: left;
