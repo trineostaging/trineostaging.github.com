@@ -24,8 +24,7 @@ title: About
           <h2 class='title'>Who Is Trineo?</h2>
           <div class='description'>
             <p>Trineo (pronounced trin-eee-oh) is a company that specialises in cloud application development – a new way of building and deploying web apps.</p>
-            <p>Our services are focused on developing business solutions using cloud platforms such as Salesforce.com/Force.com and Ruby on Rails on Heroku.  This lets our team spend 100% of our time focused on writing solutions for our clients, not managing servers, deployment, ongoing operations, or scaling.</p>
-            <p>Trineo was founded in 2008 by Daniel Fowlie, and he joined forces with Abhinav Keswani in early 2010.</p>
+            <p>Our services are focused on developing business solutions using cloud platforms such as Salesforce.com/Force.com and Ruby on Rails on Heroku.  This lets our team spend 100% of our time focused on developing solutions for our clients, not managing servers, deployment, ongoing operations, or scaling.</p>
           </div>
         </div>
       </div>

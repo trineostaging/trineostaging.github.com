@@ -1,0 +1,29 @@
+---
+layout: default
+title: Working for Trineo
+---
+<div class='slider' id='intro'>
+  <div class='nav slider-nav'>
+    <ul>
+      <li>
+        <a href='#working_for_trineo' class="active">Working for Trineo</a>
+      </li>
+    </ul>
+  </div>
+  <div class='slider-bounds'>
+    <div class='shadow'></div>
+    <div class='slider-canvas'>
+      <div class='slide' id='working_for_trineo'>
+        <div class='slide-content'>
+          <h2 class='title'>Working for Trineo</h2>
+          <div class='description'>
+            <p>At this point we're interested in meeting individuals who have a passion for high quality software development.</p>
+            <p>Typically, our workload is well catered for by our existing team, however the nature of what we do demands that we know of good people who will fit well into our humble crew.</p>
+            <p>Please do <a href="/contact.html">contact us</a> should you wish to.</p>
+            <p>Send us your github repo, your twitter account, your contributions to open source projects, discussion forums or online communities - show us that you're engaged and involved and we'll be all ears.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
