@@ -5,3 +5,4 @@ server_port: 3000
 pygments: true
 paginate: 5
 lsi: false
+google_analytics_code: UA-3718374-1
