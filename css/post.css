@@ -6,6 +6,8 @@
 	padding: 1.5em 0em 2.0em 0em;
 	margin-bottom: 2.0em;
 	border-bottom: 1px solid #ddd;
+  margin: auto;
+  width: 940px;
 }
 
 .post .title {
