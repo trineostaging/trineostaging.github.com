@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "playing with jekyll"
+short_title: "playing with jekyll"
+excerpt: "This is an excerpt from a blog post that we are writing and I am testing this theory out."
 categories:
 - news
 - test

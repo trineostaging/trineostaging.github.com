@@ -2,13 +2,31 @@
 layout: default
 title: "Recent News"
 ---
-<h2 id="subtitle">The Trineo Blog</h2>
-{% for post in site.categories.news limit:2 %}
-<div class="post">
-    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1> 
-    {{ post.content }}
-    <p class="signoff"> 
-      &mdash;<a href="{{ post.url }}">{{ post.date | date: "%d %b, %Y" }}</a>
-    </p>
+<div class='slider' id='intro'>
+  <div class='nav slider-nav'>
+    <ul>
+      {% for post in site.categories.news limit:4 %}
+      <li>
+        <a href='#{{ post.title }}' class="active">{{ post.short_title }}</a>
+        Published: {{ post.date | date: "%d %b, %Y" }}
+      </li>
+      {% endfor %}
+    </ul>
   </div>
-{% endfor %}
+  <div class='slider-bounds'>
+    <div class='shadow'></div>
+    <div class='slider-canvas'>
+      {% for post in site.categories.news limit:4 %}
+      <div class='slide' id='{{ post.title }}'>
+        <div class='slide-content'>
+          <h2 class='title'>{{ post.title }}</h2>
+          <div class='description'>
+            {{ post.excerpt }}
+            <p><a href="{{ post.url }}">Read more...</p> 
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
