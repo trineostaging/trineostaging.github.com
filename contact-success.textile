@@ -1,23 +1,22 @@
 ---
 layout: default
-title: About
+title: Contact Success
 ---
-<div id="form-content">
-  <div class='content'>
-    <div class='left'>
-      <div class='panel'>
-        <h2>Thanks for your query...</h2>
-        A member of the Trineo team will be in touch with you shortly.
-      </div>
-    </div>
-
-    <div class='right'>
-        <div class='address'>
-          <p>Heroku, Inc.</p>
-          <p>321 11th Street</p>
-          <p>San Francisco, CA</p>
+<div class='slider' id='intro'>
+  <div class='nav slider-nav'>
+  </div>
+  <div class='slider-bounds'>
+    <div class='shadow'></div>
+    <div class='slider-canvas'>
+      <div class='slide' id='thanks'>
+        <div class='slide-content'>
+          <h2 class='title'>Thanks for getting in touch!</h2>
+          <div class='description'>
+            <h3>Thanks for getting in touch!</h3>
+            <p>We'll be in touch soon regarding your query.</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
- </div>
+</div>
