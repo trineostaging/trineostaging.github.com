@@ -3,7 +3,7 @@ html textarea, body textarea {
   padding: 7px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  background-color: #c9c3e6;
+  background-color: #eee;
   border: none;
   width: auto; }
 html input[type=text], html input[type=password], body input[type=text], body input[type=password] {
@@ -11,7 +11,7 @@ html input[type=text], html input[type=password], body input[type=text], body in
   padding: 7px;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  background-color: #c9c3e6; }
+  background-color: #eee; }
 html input[type=checkbox], body input[type=checkbox] {
   margin-right: 5px; }
 html input.submit, html input.button, html a.submit, html a.button, body input.submit, body input.button, body a.submit, body a.button {
@@ -21,7 +21,7 @@ html input.submit, html input.button, html a.submit, html a.button, body input.s
   -webkit-box-shadow: 2px 2px 6px #232323;
   margin: 0;
   padding: 0;
-  background-color: #9e8aff;
+  background-color: #008eb5;
   text-shadow: #c9c3e6 0px 0px 2px;
   color: #16153b;
   font-size: 14px;
@@ -39,7 +39,7 @@ html input.submit, html input.button, html a.submit, html a.button, body input.s
   html input.submit:hover, html input.button:hover, html a.submit:hover, html a.button:hover, body input.submit:hover, body input.button:hover, body a.submit:hover, body a.button:hover {
     text-decoration: none; }
   html input.submit:hover, html input.button:hover, html a.submit:hover, html a.button:hover, body input.submit:hover, body input.button:hover, body a.submit:hover, body a.button:hover {
-    background-color: #c9c3e6; }
+    background-color: #eee; }
   html input.submit.disabled, html input.button.disabled, html a.submit.disabled, html a.button.disabled, body input.submit.disabled, body input.button.disabled, body a.submit.disabled, body a.button.disabled {
     background-color: #555555;
     text-shadow: #aaaaaa 0px 0px 2px;
@@ -278,7 +278,7 @@ html, body {
     margin-bottom: 4px; }
   html h2, body h2 {
     font-size: 20px;
-    line-height: 20px; }
+    line-height: 25px; }
   html h3, html h4, body h3, body h4 {
     font-size: 16px;
     line-height: 18px;

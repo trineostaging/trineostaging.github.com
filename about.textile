@@ -3,28 +3,29 @@ layout: default
 title: About
 ---
 <div class='slider' id='intro'>
-  <div class='slider-nav'>
+  <div class='nav slider-nav'>
     <ul>
       <li>
-        <a href='#who_is_trineo'>Who Is Trineo?</a>
+        <a href='#what_is_trineo' class="active">What Is Trineo?</a>
       </li>
       <li>
-        <a href='#our_philosophy'>Our Philosophy</a>
+        <a href='#our_philosophy' class=" ">Our Philosophy</a>
       </li>
       <li>
-        <a href='#our_crew'>Our Crew</a>
+        <a href='#our_crew' class=" ">Our Crew</a>
       </li>
     </ul>
   </div>
   <div class='slider-bounds'>
     <div class='shadow'></div>
     <div class='slider-canvas'>
-      <div class='slide' id='who_is_trineo'>
+      <div class='slide' id='what_is_trineo'>
         <div class='slide-content'>
-          <h2 class='title'>Who Is Trineo?</h2>
+          <h2 class='title'>What Is Trineo?</h2>
           <div class='description'>
             <p>Trineo (pronounced trin-eee-oh) is a company that specialises in cloud application development – a new way of building and deploying web apps.</p>
-            <p>Our services are focused on developing business solutions using cloud platforms such as Salesforce.com/Force.com and Ruby on Rails on Heroku.  This lets our team spend 100% of our time focused on developing solutions for our clients, not managing servers, deployment, ongoing operations, or scaling.</p>
+            <p>Our services are focused on developing business solutions using cloud platforms such as <a href="http://salesforce.com">Salesforce.com</a>, <a href="http://force.com">Force.com</a> and <a href="http://rubyonrails.org">Ruby on Rails</a> using <a href="http://heroku.com">Heroku</a>.</p>
+            <p>This lets our team spend 100% of our time focused on developing solutions for our clients, not managing servers, deployment, ongoing operations, or scaling.</p>
           </div>
         </div>
       </div>
@@ -48,6 +49,7 @@ title: About
             <p>We are a small team of 7 people, 4 full time and 3 part time.</p>
             <p>Don't let our size fool you - between us we pack quite a punch.  In our eyes, a small, nimble and motivated team will always deliver better solutions, to budget and within allotted timeframes.</p>
             <p>In past lives, our team has worked in a variety of roles, in diverse industries - working on large scale web infrastructure/platforms and data processing solutions.</p>
+            <p>Come and "meet our team":crew.html ... </p>
           </div>
         </div>
       </div>
