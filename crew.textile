@@ -1,0 +1,90 @@
+---
+layout: default
+title: "Meet the crew"
+---
+<div class='slider' id='intro'>
+  <div class='nav slider-nav'>
+    <ul>
+      <li>
+        <a href='#lm' class="active">Luke McFarlane</a>
+      </li>
+      <li>
+        <a href='#mw' class="active">Matt Wratt</a>
+      </li>
+      <li>
+        <a href='#jg' class="active">Jack Galilee</a>
+      </li>
+      <li>
+        <a href='#df' class="active">Daniel Fowlie</a>
+      </li>
+      <li>
+        <a href='#ak' class="active">Abhinav Keswani</a>
+      </li>
+    </ul>
+  </div>
+  <div class='slider-bounds'>
+    <div class='shadow'></div>
+    <div class='slider-canvas'>
+      <div class='slide' id='lm'>
+        <div class='slide-content'>
+          <h2 class='title'>Luke McFarlane</h2>
+          <div class='description'>
+            <h3>Certified "Salesforce.com":http://salesforce.com Developer // "Force.com":http://force.com Solutions</h3>
+            <p></p>
+            <p>Luke brings to our team a vibrant approach with a solid focus on learning the very best way to deliver quality.</p>
+            <p>If we ever formed a rock band, Luke would be lead guitarist, drummer, bass guitarist and potentially on percussion too.  A musically talented young man with a passion for cycling to boot!</p>
+          </div>
+        </div>
+      </div>
+      <div class='slide' id='mw'>
+        <div class='slide-content'>
+          <h2 class='title'>Matt Wratt</h2>
+          <div class='description'>
+            <h3>Software Developer // "Salesforce.com":http://salesforce.com, "Force.com":http://force.com Solutions</h3>
+            <p></p>
+            <p>Matt brings a diverse skillset to Trineo, with a background in programming flight simulators, and web application development.</p>
+            <p>On day 1, he amazed us with his knowledge of how to redefine the usability of a web page - begone desktop apps!</p>
+            <p>Being a multi talented individual who can fly planes, if we ever own a plane ... Captain Wratt would be at the controls.</p>
+          </div>
+        </div>
+      </div>
+      <div class='slide' id='jg'>
+        <div class='slide-content'>
+          <h2 class='title'>Jack Galilee</h2>
+          <div class='description'>
+            <h3>Software Developer // "Salesforce.com":http://salesforce.com, "Force.com":http://force.com Solutions</h3>
+            <p></p>
+            <p>Working with us on a part time basis through his A grade Computer Science degree at the "University of Canterbury":http://www.canterbury.ac.nz/, Jack has cemented his position as a key team member.</p>
+            <p>Most recently he was heavily involved in the creation and delivery of our latest product - the "Dime":/products.html#dime Xero Edition connectory.</p>
+            <p>Another Sydney boy (as is Abhinav), Jack brings some trans Tasman balance to the team!</p>
+          </div>
+        </div>
+      </div>
+      <div class='slide' id='df'>
+        <div class='slide-content'>
+          <h2 class='title'>Daniel Fowlie</h2>
+          <div class='description'>
+            <h3>Director // Principal, "Salesforce.com":http://salesforce.com and "Force.com":http://force.com Solutions</h3>
+            <p></p>
+            <p>Daniel has worked globally, for NZ companies and has a well respected depth of expertise in the "Salesforce.com":http://salesforce.com space.</p>
+            <p>With great pride, Daniel represented Trineo at the "2009 Force 40 Innovation Showcase":http://www.salesforce.com/campaigns/forty/forty_gallery.jsp in San Francisco.</p>
+            <p>Apart from his undying love (and statistical knowledge) of cricket, rugby, golf, and ... any sport really ... Daniel is known for his ability to source intel on any topic ... </p>
+            <p>We've often thought of creating a spin off market intelligence company with Daniel at the hub.</p>
+          </div>
+        </div>
+      </div>
+      <div class='slide' id='ak'>
+        <div class='slide-content'>
+          <h2 class='title'>Abhinav Keswani</h2>
+          <div class='description'>
+            <h3>Director // Principal, Bespoke "Ruby on Rails":http://rubyonrails.org Solutions & "Atlassian":http://atlassian.com Specialist</h3>
+            <p></p>
+            <p>Abhinav has worked for big tech throughout his career, starting out with running high availability web infrastructure for a global media and telecommunications companies, and then more recently creating and heading up a team tasked with agile web application development for an Australian telco.</p>
+            <p>Having been born in India, raised in Australia (Sydney) and travelled for years cumulatively, Abhinav brings a broad and diverse perspective to the crew.</p>
+            <p>Recently becoming a Dad, he spends much of his spare time hanging out with his family, and is looking forward to enjoying his favourite pursuits of mountain biking and climbing with his little son in tow.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

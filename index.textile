@@ -49,6 +49,7 @@ title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
             <p>We are a small team of 7 people, 4 full time and 3 part time.</p>
             <p>Don't let our size fool you - between us we pack quite a punch.  In our eyes, a small, nimble and motivated team will always deliver better solutions, to budget and within allotted timeframes.</p>
             <p>In past lives, our team has worked in a variety of roles, in diverse industries - working on large scale web infrastructure/platforms and data processing solutions.</p>
+            <p>Come and "meet our team":crew.html ... </p>
           </div>
         </div>
       </div>
