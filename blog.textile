@@ -3,6 +3,13 @@ layout: default
 title: "Blog"
 ---
 <div class='slider' id='intro'>
+  <div class='nav slider-nav'>
+    <ul>
+      <li>
+        <h2>Recent Posts</h2><a href="/atom.xml"><img src="/images/feed-icon-28x28.png"/></a>
+      </li>
+    </ul>
+  </div>
   <div class='slider-bounds'>
     <div class='shadow'></div>
       <div class='slider-canvas'>

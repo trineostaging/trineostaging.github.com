@@ -25,7 +25,7 @@ title: "Professional Services"
           <div class='description'>
             <h3>Customer Relationship Management // Business Process Automation</h3>
             <p>Your customers are the heart of your business.  It makes sense then that at the heart of your business software is a robust, configurable and extendable customer relationship management system.</p>
-            <p>We believe that system is <a href="http://salesforce.com">Salesforce.com</a>.</p>
+            <p>We believe that system is "(external) Salesforce.com":http://salesforce.com.</p>
             <p>When it comes to skill and diverse experience with Salesforce.com deployments, Trineo are one of the leaders in New Zealand.  Our experience spans multiple industry verticals, from the small to the biggest APAC deployments of Salesforce.com - one user to thousands and everything in between.</p>
           </div>
         </div>
@@ -35,7 +35,7 @@ title: "Professional Services"
           <div class='description'>
             <h2 class='title'>Custom Solutions // Ruby on Rails // Heroku</h2>
             <h3>Custom Solutions // Ruby on Rails // Heroku</h3>
-            <p>Using <a href="http://rubyonrails.org/">Ruby on Rails</a> as a development framework, and <a href="http://heroku.com/">Heroku</a> as our preferred choice of deployment platform - Trineo can rapidly deliver extremely well built solutions.</p>
+            <p>Using "(external) Ruby on Rails":http://rubyonrails.org as a development framework, and "(external) Heroku":http://heroku.com as our preferred choice of deployment platform - Trineo can rapidly deliver extremely well built solutions.</p>
             <p>We always work in pairs, and practice test driven development to ensure that your project is delivered to specification, with a sustainable foundation to cater for evolving requirements.</p>
           </div>
         </div>
@@ -46,8 +46,8 @@ title: "Professional Services"
           <div class='description'>
           <h3>Atlassian Collaboration Suite</h3>
           <p>Our customer base is spread globally.  Almost all our work is remotely delivered - and so we strive to avoid ambiguity, confusion and miscommunications that can lead to unfulfilled expectations.</p>
-          <p>We communicate with our customers and manage our deliverables using the legendary collaboration software developed by <a href="http://atlassian.com">Atlassian</a>.</p>
-          <p>As listed <a href="http://confluence.atlassian.com/display/APW/Trineo+Ltd">Atlassian Consulting Partners</a> we are recognised to have the ability to consult and assist companies that require knowledge management, issue tracking, improvements in software development lifecycle and tooling to help them communicate better - within and with their own customers.</p> 
+          <p>We communicate with our customers and manage our deliverables using the legendary collaboration software developed by "(external) Atlassian":http://atlassian.com.</p>
+          <p>As listed "(external) Atlassian Consulting Partners":http://confluence.atlassian.com/display/APW/Trineo+Ltd we are recognised to have the ability to consult and assist companies that require knowledge management, issue tracking, improvements in software development lifecycle and tooling to help them communicate better - within and with their own customers.</p> 
           </div>
         </div>
       </div>

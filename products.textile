@@ -21,7 +21,7 @@ title: Products
             <p>Dime is a Salesforce library which integrates with API's offered by popular online accounting platforms.</p>
             <p>Developers and analysts need not worry about how to retrieve data from their accounting platform and can instead focus on what they will do with it.</p>
             <p>This edition of Dime integrates Salesforce with the Xero onine accounting platform.</p>
-            <p>Dime is listed on the <a href="http://appexchange.salesforce.com/listingDetail?listingId=a0N30000003J4HdEAK">Salesforce.com AppExchange</a> - install a trial edition now.</p>
+            <p>Dime is listed on the "(external) Salesforce.com AppExchange":http://appexchange.salesforce.com/listingDetail?listingId=a0N30000003J4HdEAK - install a trial edition now.</p>
           </div>
         </div>
       </div>

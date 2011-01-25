@@ -24,7 +24,7 @@ title: About
           <h2 class='title'>What Is Trineo?</h2>
           <div class='description'>
             <p>Trineo (pronounced trin-eee-oh) is a company that specialises in cloud application development – a new way of building and deploying web apps.</p>
-            <p>Our services are focused on developing business solutions using cloud platforms such as <a href="http://salesforce.com">Salesforce.com</a>, <a href="http://force.com">Force.com</a> and <a href="http://rubyonrails.org">Ruby on Rails</a> using <a href="http://heroku.com">Heroku</a>.</p>
+            <p>Our services are focused on developing business solutions using cloud platforms such as "(external) Salesforce.com":http://salesforce.com, "(external) Force.com":http://force.com and "(external) Ruby on Rails":http://rubyonrails.org using "(external) Heroku":http://heroku.com.</p>
             <p>This lets our team spend 100% of our time focused on developing solutions for our clients, not managing servers, deployment, ongoing operations, or scaling.</p>
           </div>
         </div>

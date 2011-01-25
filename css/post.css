@@ -9,6 +9,7 @@
 /*	border-bottom: 1px solid #ddd; */
   margin: auto;
   width: 100%;
+  color: #ccc;
 }
 
 .post .post-container {
@@ -28,7 +29,7 @@
 }
 
 .post .date {
-	color: #ddd;
+	color: #eee;
 	font-size: 0.8em;	
 }
 
