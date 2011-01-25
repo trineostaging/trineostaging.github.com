@@ -157,7 +157,7 @@ html form fieldset, body form fieldset {
   overflow: auto;
   clear: both;
   border-top-width: 4px;
-  border-top-color: #232323;
+  border-top-color: #black;
   border-top-style: solid;
   padding: 20px 30px 15px 30px; }
   html form fieldset:first-child, body form fieldset:first-child {
@@ -264,7 +264,7 @@ html, body {
   font-size: 100%;
   font-family: arial, helvetica, sans-serif;
   vertical-align: baseline;
-  background-color: #1c1c1c;
+  background-color: #425968;
   color: #999999;
   padding-bottom: 0;
   min-width: 1000px;

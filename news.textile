@@ -3,30 +3,22 @@ layout: default
 title: "Recent News"
 ---
 <div class='slider' id='intro'>
-  <div class='nav slider-nav'>
-    <ul>
-      {% for post in site.categories.news limit:4 %}
-      <li>
-        <a href='#{{ post.title }}' class="active">{{ post.short_title }}</a>
-        Published: {{ post.date | date: "%d %b, %Y" }}
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
   <div class='slider-bounds'>
     <div class='shadow'></div>
-    <div class='slider-canvas'>
-      {% for post in site.categories.news limit:4 %}
-      <div class='slide' id='{{ post.title }}'>
-        <div class='slide-content'>
-          <h2 class='title'>{{ post.title }}</h2>
-          <div class='description'>
-            {{ post.excerpt }}
-            <p><a href="{{ post.url }}">Read more...</p> 
+      <div class='slider-canvas'>
+        {% for post in site.categories.news limit:2 %}
+        <div class='slide'>
+          <div class='slide-content'>
+            <h2 class='title'>{{ post.title }}</h2>
+            <div class='description'>
+              <h3>{{ post.title }}</h3>
+              {{ post.excerpt }}
+              <p>Published {{ post.date | date: "%b %d %Y" }}, <a href="{{ post.url }}">Read more...</p> 
+            </div>
           </div>
         </div>
+        {% endfor %}
       </div>
-      {% endfor %}
     </div>
   </div>
 </div>

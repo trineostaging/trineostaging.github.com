@@ -3,10 +3,21 @@
  --------------------------------------------------------------*/
 
 .post {
+  background-color: black;
 	padding: 1.5em 0em 2.0em 0em;
 	margin-bottom: 2.0em;
-	border-bottom: 1px solid #ddd;
+/*	border-bottom: 1px solid #ddd; */
   margin: auto;
+  width: 100%;
+}
+
+.post .post-container {
+  width: 940px;
+  margin: auto;
+}
+
+.post .content {
+  padding: auto;
   width: 940px;
 }
 
@@ -17,7 +28,7 @@
 }
 
 .post .date {
-	color: #aaa;
+	color: #ddd;
 	font-size: 0.8em;	
 }
 
