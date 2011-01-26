@@ -56,6 +56,7 @@ title: About
           <p>Level 1, Novo House</p>
           <p>323 Madras St</p>
           <p>Christchurch, 8013</p>
+          <p>"(external) Google Maps Link":http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Trineo+Ltd,+323+Madras+St,+Christchurch+Central,+New+Zealand&aq=&sll=-43.525267,172.642368&sspn=0.008962,0.022724&g=323+Madras+St,+Christchurch+Central,+New+Zealand&ie=UTF8&hq=Trineo+Ltd,&hnear=323+Madras+St,+Christchurch+Central+8013,+Canterbury,+New+Zealand&t=h&z=16</p>
         </div>
         <div class='address'>
           <p>Mailing Address</p>

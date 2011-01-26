@@ -1,0 +1,19 @@
+---
+layout: post
+title: Trineo releases first commercial product
+excerpt: Xero blogged about our new product \"Dime - Xero Edition\" - which integrates Salesforce.com and Xero.com.
+categories:
+- news
+---
+
+h1. Trineo releases their first commercial product - integrating Xero and Salesforce
+
+After over a year of work in the space of integrating Xero and Salesforce, and repeated customer engagements to deliver this over and over again, we developed and released our first commercial product listed on the "(external) Salesforce AppExchange":https://sites.secure.force.com/appexchange/listingDetail?listingId=a0N30000003J4HdEAK.
+
+This is the culmination of work that began in late 2009 to explore the way in which one could just get the two systems talking.  Daniel and Abhinav's first piece of work together was in this space, and since then most of the team has made some contribution - most notably Jack - towards the delivery of this to the market.
+
+We're fielding many queries about this from the UK particularly where both products are very popular.
+
+The marketing team at Xero recently helped us "launch" the product using a "(external) blog entry":http://blog.xero.com/2011/01/integrate-salesforce-and-xero-using-dime/.
+
+We're really pleased to be at this stage, and are steadily supporting the growing interest in this space.

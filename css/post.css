@@ -33,6 +33,10 @@
 	font-size: 0.8em;	
 }
 
+.post p {
+  margin-top: 20px;
+}
+
 .post pre {
 	border: 1px solid #ddd;
 	background-color: #eef;

@@ -1,0 +1,18 @@
+---
+layout: post
+title: Trineo covered on ReadWriteWeb
+excerpt: To our surprise, we happily found a short article about a bespoke solution built by Abhinav which deployed a Salesforce customer portal built in Rails and hosted on Heroku.
+categories:
+- news
+---
+
+h1. Trineo Bespoke Ruby on Rails Solution covered on ReadWriteWeb
+
+As we respectively relaxed on Christmas eve, Abhinav received an email from a friend in Australia congratulating him on being covered on the very well known technology blog "(external) ReadWriteWeb":http://www.readwriteweb/cloud/2010/12/how-one-company-is-using-ruby.php.  He quickly shared the news with Dan - we were both absolutely taken by surprise.  Talk about a great Christmas present ... 
+
+The "(external) ReadWriteWeb article":http://www.readwriteweb/cloud/2010/12/how-one-company-is-using-ruby.php described the rapid development of a prototype customer portal which Abhinav built.  It was built using the Ruby on Rails framework running on the Heroku platform and it talked to a customer's Salesforce org using the Salesforce API.  Combining Daniel's Salesforce mastery and Abhinav's Rails skills, the portal was developed in a few days for presentation to the customer.  
+
+The article extended and recapped the writing of our colleague "(external) Ben Kepes":http://diversity.net.nz/when-enterprise-apps-get-agilea-rubysalesforce-case-study/2010/12/15/.
+
+We're humbled and really excited to receive such coverage, and are fielding queries based on this write-up.
+
