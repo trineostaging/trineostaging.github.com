@@ -13,18 +13,17 @@ title: "Blog"
   <div class='slider-bounds'>
     <div class='shadow'></div>
       <div class='slider-canvas'>
-        {% for post in site.categories.blog limit:2 %}
         <div class='slide'>
           <div class='slide-content'>
-            <h2 class='title'>{{ post.title }}</h2>
             <div class='description'>
-              <h3>{{ post.title }}</h3>
-              {{ post.excerpt }}
-              <p>Published {{ post.date | date: "%b %d %Y" }}, <a href="{{ post.url }}">Read more...</p> 
+              {% for post in site.categories.blog limit:2 %}
+                <h3>{{ post.title }}</h3>
+                {{ post.excerpt }}
+                <p>Published {{ post.date | date: "%b %d %Y" }}, <a href="{{ post.url }}">Read more...</a></p> 
+              {% endfor %}
             </div>
           </div>
         </div>
-        {% endfor %}
       </div>
     </div>
   </div>
