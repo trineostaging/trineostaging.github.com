@@ -6,7 +6,7 @@ categories:
 - blog
 ---
 
-h1. Express Solutions
+h1. Express Solutions - by Abhinav Keswani
 
 I used to work for an Australian Telco - having been a founding member of a tiny team tasked with the delivery of short, sweet web apps that can be delivered quickly, and will resolve "low hanging fruit" business problems.  The team was created to rapidly respond to smaller business problems that were often overlooked, or subject to inappropriate costs as they were forced through a large project lifecycle.  
 
