@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Technology Background: Agile web application development in an Enterprise environment"
+---
+
+Continuing from my previous post about "(external) agile development in the corporate context":/2011/02/Agile-Development/, I will describe the technology we used to be able to rapidly deliver web applications.
+
+To deliver 50 web applications in a year we needed some basic structures in place:
+
+# An application framework which would allow us to rapidly create and maintain web apps, with in-built flexibility given ever changing requirements
+# An underlying infrastructure that would serve 150 apps (suggesting a 3 year lifespan)
+# A modicum of secure controls over our application environment and infrastructure so as to autonomously deliver our work
+# Automation
+# More automation
+
+We chose to use the following:
+
+# The "(external) Symfony MVC framework":http://www.symfony.org, and somewhat confusingly, the "(external) JBoss Seam framework":http://seamframework.org [1]
+# "(external) Red Hat Enterprise Linux":http://www.redhat.com/rhel as it was our corporate standard Linux - to create dev, test and prod environments
+# "(external) Apache":http://httpd.apache.org, "(external) MySQL":http://www.mysql.com to round out web serving and the database of choice
+# A small arsenal of shell and perl combined with clever sudo access for non-root users to give thorough and secure control over these hosts
+# Atlassian "(external) Jira":http://www.atlassian.com/software/jira/ and "(external) Confluence":http://www.atlassian.com/software/confluence for issue tracking and documentation respectively.
+# Atlassian "(external) Fisheye":http://www.atlassian.com/software/fisheye/ and "(external) Crucible":http://www.atlassian.com/software/crucible/ plus Subversion for development peer review and source code management respectively.
+# "(external) Socialcast":http://socialcast.com for inside the firewall microblogging and collaboration
+
+With all of the above, we were able to manage the delivery of an entire web application from concept to reality without the need to engage any other IT teams.  Well, that's not entirely true - we needed to create new URLs for these apps, so we'd need to request a new CNAME record which would take sometimes 2 weeks...(!!!)...
+
+We quickly realised that there were common components being delivered repeatedly - such as the authentication layer in these applications needed to authenticate against Active Directory.  Or, that employee lookups were being performed against that corporate directory.  We quickly developed reusable modules of code that would allow any app to have these common functions without needing to write any code.
+
+Knowing what I know now, I would humbly suggest a few changes to the above stack - but more of that will be covered later ... 
+
+I discussed these structures at a recent cloudcamp in Auckland - suggesting that a PaaS approach to deployment scalable web apps would be ideal for this team, however venturing outside the firewall - especially on cloud platforms is a pretty big ask for a somewhat conservative company.
+
+fn1. With all due respect, we included Java in our stack just to appease a few people who felt there is no other choice for the "Enterprise"

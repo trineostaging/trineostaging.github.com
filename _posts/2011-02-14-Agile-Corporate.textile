@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Business Justification: Agile web application development in an Enterprise environment"
+---
+
+Continuing from my previous post about "(external) agile development in the corporate context":/2011/02/Agile-Development/, I will point out the ways in which the team was structured and backed financially - in the context of the goals that were set for us.
+
+Essentially, the creation of a small agile team was a PR exercise to demonstrate to business that IT still responded quickly and with quality.
+
+The difficulty that we were to try to overcome was the inappropriate application of large scale project costs and timelines to smaller requests from business.  Usually, just the ramp up cost of any IT project would instantly negate the benefit of a small to medium sized business project.
+
+Some essentials:
+
+# We were tasked to deliver 50 web applications of varying complexity in one year.
+# The team was fully funded so we were not seeking to constantly capitalise our work.
+# The team was therefore not required to charge for our work.  
+
+So the IT organisation subsidised the team's salaries, and infrastructure requirements - so as to focus exclusively on delivery as opposed to bureaucracy.
+
+The other and perhaps most important aspect to all of this is that the team was backed by the CIO.  Although he set a challenging goal, he also cleared the path for us to quickly build the required infrastructure and gave us the autonomy to decide how we would achieve the goals set.  A rare and incredible opportunity for us!
+
+Motivated by the need to simply add value - we built a cheap and high quality open source infrastructure, and then proceeded to meet the challenges that were set.
+
+A simple example of our work would be two weeks spent building an application which would scan workloads of a provisioning team, and prompt team members when critical dates were being approached so that customer service KPI's were met.  This took 2 weeks or 10 working days to build - at a calculated expense of $10K, and saved the business $147K per annum.  This ROI calculation was based primarily on time saved on a weekly basis - not to mention the clear improvements in customer service as the provisioning team stayed on top of their work and their timely communications with customers in case of delay.
+
+The "free" nature of the service was quickly pounced upon and some attempts were made to exploit our model.  We dealt with this by setting a maximum of 4 weeks to be spent on any deliverable.  So if we were asked to do a 6 month project for free - we would politely decline.  Usually, the cost associated with a 6 month deliverable would motivate the business to descope heavily, until they did fit within our model.  This didn't happen all the time, however when it did, the business walked away with much of their desired functionality and an actual solution as opposed to a design or concept.
+
