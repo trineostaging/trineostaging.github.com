@@ -12,6 +12,9 @@ title: "Meet the crew"
         <a href='#mw' class="active">Matt Wratt</a>
       </li>
       <li>
+        <a href='#ba' class="active">Bry Ashman</a>
+      </li>
+      <li>
         <a href='#jg' class="active">Jack Galilee</a>
       </li>
       <li>
@@ -45,6 +48,18 @@ title: "Meet the crew"
             <p>Matt brings a diverse skillset to Trineo, with a background in programming flight simulators, and web application development.</p>
             <p>On day 1, he amazed us with his knowledge of how to redefine the usability of a web page - begone desktop apps!</p>
             <p>Being a multi talented individual who can fly planes, if we ever own a plane ... Captain Wratt would be at the controls.</p>
+          </div>
+        </div>
+      </div>
+      <div class='slide' id='ba'>
+        <div class='slide-content'>
+          <h2 class='title'>Bry Ashman</h2>
+          <div class='description'>
+            <h3>"(external)Ruby on Rails":http://rubyonrails.org Developer // Bespoke Solutions</h3>
+            <p></p>
+            <p>Bry is our latest recruit, bringing to our team a superb focus on quality, thorough communication and timely delivery of the best solution at hand.</p>
+            <p>He has recently worked in the Telecommunications industry, building highly focused bespoke solutions specifically designed to improve and provide insights into operational processes.</p>
+            <p>His most recent side project involves helium and a Death Star replica.  Enough said...he fits in well with our team.</p>
           </div>
         </div>
       </div>
