@@ -1,0 +1,67 @@
+---
+layout: post
+title: Deploying Rails Salesforce apps on the Heroku platform
+categories:
+- blog
+---
+
+When deploying a Rails web application that connects to the Salesforce.com API on the Heroku platform, one ideally wants to achieve a few things:
+
+# - not deviating from the standard Heroku deployment process
+# - reliably establishing connectivity to the Salesforce.com API
+# - allowing your Rails app to also connect to its own database (local for development, shared or dedicated in production as hosted by Heroku)
+
+There are a number of posts and discussions about how best to achieve this, and most involve the use of a separate config file typically called "salesforce.yml" where one defines the relevant details (a realm, adapter ... ) to connect to the Salesforce.com API.  
+
+In doing this - most are trying to overcome the usual hurdle where Heroku will overwrite your "config/database.yml" file during deployment.  You therefore lose the definition of these API connection details in the "config/database.yml".
+
+This alone won't allow your Rails app to use the database that Heroku provides.  Some solutions propose the extraction of Heroku database URL environment variables, to place them into your "salesforce.yml" file.  In the case of a changing database URL (say you migrate from a shared to a dedicated Heroku database) this file will need to be updated - and this introduces an extra maintenance overhead.
+
+All of the above methods require that you put your Salesforce.com username, password and token into an unencrypted text file which may be compromised (however unlikely this may be).
+
+At Trineo, we have another approach - a simple and clean method which achieves the above goals.  It's actually already described by Heroku as a method to set up a connection to S3 AWS.
+
+We create a new initializer, "config/initializers/salesforce.rb" as such:
+
+{% highlight ruby %}
+
+ActiveRecord::Base.configurations["salesforce-default-realm"] = {
+    "adapter"=> "activesalesforce",
+    "url"=> ENV['FORCE_URL'] || "https://www.salesforce.com",
+    "username"=> ENV['FORCE_USERNAME'],
+    "password"=> ENV['FORCE_PASSWORD'],
+    "api_version"=> 20.0
+}
+
+{% endhighlight %}
+
+Notice the above sets up the realm, adapter, an API URL endpoint, username, password and an API version - exactly the credentials required to connect to the Salesforce.com API.
+
+Sensitive API credentials are maintained as Heroku (or local) environment variables.  These are referenced by the Rails app during bootstrap, and the environment variables can be added as such:
+
+{% highlight console %}
+$ heroku config:add FORCE_USERNAME=my@username.com FORCE_PASSWORD=password+token
+Adding config vars:
+  FORCE_USERNAME    => my@username.com
+  FORCE_PASSWORD    => password+token
+Restarting app...done.
+{% endhighlight %}
+
+Similarly, you can easily set these environment variables locally in your development environment thus:
+
+{% highlight console %}
+$ export FORCE_USERNAME="my@username.com"
+$ export FORCE_PASSWORD="password+token"
+{% endhighlight %}
+
+The "config/database.yml" file remains untouched - we use sqlite3 for local testing and development, and we allow Heroku to overwrite this as we deploy using standard procedures.
+
+So if you're reading the above, and thinking - OK I want to do this from scratch - walk me through it...then read this "(external) excellent article":http://wiki.developerforce.com/index.php/Using_the_Force.com_Toolkit_for_Ruby_on_Heroku and don't create a "salesforce.yml" file, and also do not bother to add this into your "config/environment.rb".
+
+{% highlight ruby %}
+
+config.database_configuration_file = File.join(RAILS_ROOT, 'config', 'salesforce.yml')
+
+{% endhighlight %}
+
+If you're curious to know more about the above, and/or want to discuss potential projects that integrate a web application with Salesforce.com - please "contact us":/contact.html.
