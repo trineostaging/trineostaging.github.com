@@ -8,6 +8,9 @@ title: Products
       <li>
         <a href='#dime_xero_edition'>Dime - Xero Edition</a>
       </li>
+      <li>
+        <img src="/images/xero-black-background.png" alt="Xero Network Partner"/>
+      </li>
     </ul>
   </div>
   <div class='slider-bounds'>
@@ -18,10 +21,10 @@ title: Products
           <h2 class='title'>Dime - Xero Edition</h2>
           <div class='description'>
             <h3>Dime - Xero Edition</h3>
-            <p>Dime is a Salesforce library which integrates with API's offered by popular online accounting platforms.</p>
-            <p>Developers and analysts need not worry about how to retrieve data from their accounting platform and can instead focus on what they will do with it.</p>
-            <p>This edition of Dime integrates Salesforce with the Xero onine accounting platform.</p>
-            <p>Dime is listed on the "(external) Salesforce.com AppExchange":http://appexchange.salesforce.com/listingDetail?listingId=a0N30000003J4HdEAK - install a trial edition now.</p>
+            <p>Dime - Xero Edition, is a listed Salesforce application that integrates with Xero - the popular online accounting platform.</p>
+            <p>Salesforce CRM users, developers and analysts need not worry about how to retrieve data from their accounting platform and can instead focus on what they will do with it.</p>
+            <p>Dime is listed on the <a href="http://appexchange.salesforce.com/listingDetail?listingId=a0N30000003J4HdEAK">Salesforce.com AppExchange</a> - install a trial edition now.</p>
+            <p>Find out more or try <a href="http://xero.com">Xero Accounting Software</a> for free.</p>
           </div>
         </div>
       </div>

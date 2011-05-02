@@ -14,6 +14,9 @@ title: "Professional Services"
       <li>
         <a href='#atlassian'>Team Collaboration</a>
       </li>
+      <li>
+        <a href='#xero'>Xero Solutions</a>
+      </li>
     </ul>
   </div>
   <div class='slider-bounds'>
@@ -48,6 +51,18 @@ title: "Professional Services"
           <p>Our customer base is spread globally.  Almost all our work is remotely delivered - and so we strive to avoid ambiguity, confusion and miscommunications that can lead to unfulfilled expectations.</p>
           <p>We communicate with our customers and manage our deliverables using the legendary collaboration software developed by "(external) Atlassian":http://atlassian.com.</p>
           <p>As listed "(external) Atlassian Consulting Partners":http://confluence.atlassian.com/display/APW/Trineo+Ltd we are recognised to have the ability to consult and assist companies that require knowledge management, issue tracking, improvements in software development lifecycle and tooling to help them communicate better - within and with their own customers.</p> 
+          </div>
+        </div>
+      </div>
+      <div class='slide' id='xero'>
+        <div class='slide-content'>
+          <h2 class='title'>Xero Solutions</h2>
+          <div class='description'>
+          <h3>Xero // Custom Solutions To Fit Your Needs</h3>
+          <p>As listed "(external) Xero Network Partners":http://www.xero.com/advisors/solutions/custom/ we are recognised for our expertise in developing custom solutions that integrate with Xero.</p> 
+          <p>Our clients look to us to develop their Xero related product ideas into commercially tangible and technically robust solutions. We also deliver solutions that drive greater businesss efficiency for our clients by integrating their existing systems with Xero.</p>
+          <p>Please "contact us":/contact.html to discuss how we can help you.<br/>Find out more or try <a href="http://xero.com">Xero Accounting Software</a> for free.</p>
+          <img src="/images/xero-black-background.png" alt="Xero Network Partner"/>
           </div>
         </div>
       </div>
