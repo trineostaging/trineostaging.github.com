@@ -56,9 +56,9 @@ title: About
         </div>
         <div class='address'>
           <p>Physical Location</p>
-          <p>&nbsp;&nbsp;25 Carlyle St</p>
+          <p>&nbsp;&nbsp;Unit 2C, 105 Gasson Street</p>
           <p>&nbsp;&nbsp;Christchurch</p>
-          <p>&nbsp;&nbsp;"(external) Google Maps Link":http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=25+Carlyle+St,+Sydenham,+New+Zealand&aq=t&sll=-43.564734,172.653935&sspn=0.008132,0.017595&ie=UTF8&hq=&hnear=25+Carlyle+St,+Sydenham+8023,+Canterbury,+New+Zealand&t=h&z=16&iwloc=A</p>
+          <p>&nbsp;&nbsp;"(external) Google Maps Link":http://maps.google.co.nz/maps?q=105+gasson+st+christchurch&ie=UTF8&hq=&hnear=105+Gasson+St,+Christchurch+8011,+Canterbury&z=16</p>
         </div>
         <div class='address'>
           <p>Mailing Address</p>
