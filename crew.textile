@@ -15,6 +15,9 @@ title: "Meet the crew"
         <a href='#ba' class="active">Bry Ashman</a>
       </li>
       <li>
+        <a href='#sa' class="active">Simon Allman</a>
+      </li>
+      <li>
         <a href='#jg' class="active">Jack Galilee</a>
       </li>
       <li>
@@ -60,6 +63,18 @@ title: "Meet the crew"
             <p>Bry is our latest recruit, bringing to our team a superb focus on quality, thorough communication and timely delivery of the best solution at hand.</p>
             <p>He has recently worked in the Telecommunications industry, building highly focused bespoke solutions specifically designed to improve and provide insights into operational processes.</p>
             <p>His most recent side project involves helium and a Death Star replica.  Enough said...he fits in well with our team.</p>
+          </div>
+        </div>
+      </div>
+      <div class='slide' id='sa'>
+        <div class='slide-content'>
+          <h2 class='title'>Simon Allman</h2>
+          <div class='description'>
+            <h3>Configuration Analyst // "(external) Salesforce.com":http://salesforce.com, "(external) Force.com":http://force.com Solutions</h3>
+            <p></p>
+            <p>Simon brings a very high level of service focusing on customer experience and his broad knowledge of the business sector enables an all round solid experience every time. </p>
+            <p>Venturing out from the public sector, Simon has learnt efficient methods to deal with business problems and is bursting with innovative ideas to create and build on more efficient processes. </p>
+            <p>Living most of his life in Liverpool, an avid Liverpool Football Club supporter, complete with Liverpool accent and his self professed "best looker" of the team, he helps bridge the gap between cyber space and your business.</p>
           </div>
         </div>
       </div>
