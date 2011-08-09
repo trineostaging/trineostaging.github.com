@@ -21,6 +21,9 @@ title: "Meet the crew"
         <a href='#jg' class="active">Jack Galilee</a>
       </li>
       <li>
+        <a href='#mm' class="active">Morgan Miller</a>
+      </li>
+      <li>
         <a href='#df' class="active">Daniel Fowlie</a>
       </li>
       <li>
@@ -87,6 +90,18 @@ title: "Meet the crew"
             <p>Working with us on a part time basis through his A grade Computer Science degree at the "(external) University of Canterbury":http://www.canterbury.ac.nz/, Jack has cemented his position as a key team member.</p>
             <p>Most recently he was heavily involved in the creation and delivery of our latest product - the "Dime":/products.html#dime Xero Edition connectory.</p>
             <p>Another Sydney boy (as is Abhinav), Jack brings some trans Tasman balance to the team!</p>
+          </div>
+        </div>
+      </div>
+      <div class='slide' id='mm'>
+        <div class='slide-content'>
+          <h2 class='title'>Morgan Miller</h2>
+          <div class='description'>
+            <h3>Software Developer // "(external) Salesforce.com":http://salesforce.com, "(external) Force.com":http://force.com Solutions</h3>
+            <p></p>
+            <p>Fresh from completing his Computer Science degree at the University of Canterbury, Morgan joins our Salesforce team as another stellar apprentice in application development.</p>
+            <p>Look out Hugh, this "wolverine" lookalike has been seen reading about gaming theory and thumbing through The Economist.  A well rounded chap for our tight little team.</p>
+            <p>Proudly, we welcome him as our latest star recruit.</p>
           </div>
         </div>
       </div>
