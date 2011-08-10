@@ -56,6 +56,18 @@ task :new_post, :title, :categories do |t, args|
   end
 end
 
+#########
+# Setup #
+#########
+
+desc "Set up your environment"
+task :setup do
+  system "git remote add staging git@github.com:trineostaging/trineostaging.github.com.git"
+  system "sudo gem update --system"
+  system "sudo gem install bundler"
+  system "sudo bundle install"
+end
+
 ##############
 # Deploying  #
 ##############
