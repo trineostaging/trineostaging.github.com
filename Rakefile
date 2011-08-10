@@ -35,7 +35,7 @@ task :new_post, :title, :categories do |t, args|
   require './_plugins/titlecase.rb'
   args.with_defaults(:title => 'new-post')
   args.with_defaults(:categories => ['blog'])
-  title = args.title
+  title = args.title.sub(/^'/,'').sub(/'$/,'')
   categories = args.categories.split('|')
   filename = "#{posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{title.downcase.gsub(/&/,'and').gsub(/[,'":\?!\(\)\[\]]/,'').gsub(/[\W\.]/, '-').gsub(/-+$/,'')}.#{new_post_ext}"
   puts "Creating new post: #{filename}"
