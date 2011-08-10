@@ -21,12 +21,12 @@ end
 
 desc "Watch the site and regenerate when it changes"
 task :watch do
-  system "trap 'kill $jekyllPid $compassPid' Exit; jekyll --auto & jekyllPid=$!; compass watch & compassPid=$!; wait"
+  system "trap 'kill $jekyllPid' Exit; jekyll --auto & jekyllPid=$!; wait"
 end
 
 desc "preview the site in a web browser"
 task :preview do
-  system "trap 'kill $jekyllPid $compassPid' Exit; jekyll --auto --server & jekyllPid=$!; compass watch & compassPid=$!; wait"
+  system "trap 'kill $jekyllPid' Exit; jekyll --auto --server & jekyllPid=$!; wait"
 end
 
 # usage rake new_post[my-new-post,blog|news|cake|something] or rake new_post['my new post',blog|news|cake|something] or rake new_post (defaults to "new-post" with the blog category)
