@@ -75,6 +75,7 @@ task :push, :env do |t, args|
   when "production":
       remote = "origin"
   else
+    puts "## FAILED - choose either staging or production environments for deployment."
     exit
   end
   system "cat CNAME-#{env} > CNAME"
