@@ -30,7 +30,7 @@ title: "Why choose Trineo?"
             <p>We work to understand your business and commercial context, establishing where you're coming from.  We establish enough detail to derive estimates and timelines.</p>
             <p>We set you up with full access to our project management suite so you will always know our progress and the hurdles we face.  We will involve you throughout - as we deliver small iterations of the overall deliverable.</p>
             <p>As we see problems arise, we will work with you to find the best outcome.  Implementation of slick presentation, business logic and data manipulation is never a walk in the park - we never assume it will be.</p>
-            <p>By the end of this, you'll have taken part in the entire journey and your expectations will be met simply through having participated as your project evolves from a concept to a tangible and functioning solution.</p>
+            <p>By the end of this, you'll have taken part in the entire journey and your expectations will be met simply through having participated as your project evolves from a concept to a tangible and functioning solution. <a href='#quality' class="active">Next lets talk quality...</a></p>
           </div>
         </div>
       </div>
@@ -42,6 +42,7 @@ title: "Why choose Trineo?"
             <p>Our approach is simple - do the job right the first time so it won't come back to bite you later.</p>
             <p>We do this by continuously testing our work - every day - and never just towards the end of our projects.  This approach is known as continuous integration, and to add to this we use a test driven development practice to ensure that all our work is well tested.</p>
             <p>Quality is often the variable that is forgotten in comparison with cost and timelines.  By ensuring that we test upfront, we maintain a high level of quality - and we contain costs through reuse of code that we've written before or is available in the open source domain.</p>
+            <p><a href="#delivery" class=" ">How do we deliver...</a></p>
           </div>
         </div>
       </div>
@@ -52,7 +53,7 @@ title: "Why choose Trineo?"
           <h3>No servers, full focus on development.</h3>
           <p>We develop cloud apps.  What does this really mean?  Ultimately, the applications we deliver have to run on a computer somewhere, but we don't manage or run these computers.  They aren't really a computer in the conventional sense - they are highly tunable containers which house our applications.</p>
           <p>In simple terms, we use providers of containers that run the applications we write for you.  These containers are scalable and secure.  If the application needs to scale, we simply add more horsepower to the container through convenient controls provided by the platform.</p>
-          <p>You don't need to commission a server farm or run a server in your office in this context.  Bear in mind that security in the cloud is not just dependent on how the application is hosted, but more so how it is built and what data it keeps.</p>
+          <p>You don't need to commission a server farm or run a server in your office in this context.  Bear in mind that security in the cloud is not just dependent on how the application is hosted, but more so how it is built and what data it keeps. <a href="#yoda" class=" ">No ordinary team, this is...</a></p>
           </div>
         </div>
       </div>

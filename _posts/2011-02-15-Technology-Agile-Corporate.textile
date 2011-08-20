@@ -34,3 +34,5 @@ Knowing what I know now, I would humbly suggest a few changes to the above stack
 I discussed these structures at a recent cloudcamp in Auckland - suggesting that a PaaS approach to deployment scalable web apps would be ideal for this team, however venturing outside the firewall - especially on cloud platforms is a pretty big ask for a somewhat conservative company.
 
 fn1. With all due respect, we included Java in our stack just to appease a few people who felt there is no other choice for the "Enterprise"
+
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="trineoltd">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>

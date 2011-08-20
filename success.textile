@@ -1,0 +1,21 @@
+---
+layout: default
+title: "Success Stories"
+---
+<div class='slider' id='intro'>
+  <div class='slider-bounds'>
+    <div class='shadow'></div>
+      <div class='slider-canvas'>
+        <div class='slide'>
+          <div class='slide-content'>
+            <div class='description'>
+              {% for post in site.categories.success limit:8 %}
+                <p>{{ post.date | date: "%b %d %Y" }} // "{{ post.title }}":{{ post.url }}</p>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

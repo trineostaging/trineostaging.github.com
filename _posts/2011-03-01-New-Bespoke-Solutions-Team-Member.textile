@@ -7,3 +7,5 @@ categories:
 ---
 
 We're proud to have Bry Ashman join our Bespoke Solutions Team.  Bry has a background in the telecommunications industry, and brings to us a depth and breadth which will bolster our team capabilities.
+
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="trineoltd">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>

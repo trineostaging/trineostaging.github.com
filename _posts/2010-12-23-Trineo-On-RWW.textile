@@ -4,6 +4,7 @@ title: Trineo covered on ReadWriteWeb
 excerpt: To our surprise, we happily found a short article about a bespoke solution built by Abhinav which deployed a Salesforce customer portal built in Rails and hosted on Heroku.
 categories:
 - news
+- success
 ---
 
 h1. Trineo Bespoke Ruby on Rails Solution covered on ReadWriteWeb
@@ -16,3 +17,4 @@ The article extended and recapped the writing of our colleague "(external) Ben K
 
 We're humbled and really excited to receive such coverage, and are fielding queries based on this write-up.
 
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="trineoltd">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>

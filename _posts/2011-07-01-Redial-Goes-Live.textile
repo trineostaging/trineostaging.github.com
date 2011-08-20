@@ -4,6 +4,7 @@ title: Our latest work goes live // redial.co.nz
 categories:
 - news
 - blog
+- success
 ---
 
 In late January, Rob Henderson MD of Redial Ltd approached us to discuss the technology he required as the foundation of his new mobile phone recycling venture.
@@ -22,3 +23,4 @@ Rob Henderson, Managing Director of Redial says, “Mobile phone recycling relie
 
 "(external) redial.co.nz":http://redial.co.nz is now in production, and Rob is in a car somewhere ... running his business.
 
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="trineoltd">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>

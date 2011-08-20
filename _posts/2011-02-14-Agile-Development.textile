@@ -38,3 +38,4 @@ Here's a rapid fire brain dump of the things I have learned.
 # - Remove administrative overheads.  Automate the creation of infrastructure, and empower yourself to impose change easily, safely and regularly.
 # - Move fast and be smart.  Deliver something small every day if possible - especially in a 4 week life cycle.
 
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="trineoltd">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>

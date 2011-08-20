@@ -65,3 +65,5 @@ config.database_configuration_file = File.join(RAILS_ROOT, 'config', 'salesforce
 {% endhighlight %}
 
 If you're curious to know more about the above, and/or want to discuss potential projects that integrate a web application with Salesforce.com - please "contact us":/contact.html.
+
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="trineoltd">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>

@@ -19,3 +19,4 @@ Under the hood, we derive and curate complex business relationships between enti
 
 Check out "(external) marketscout.com.au":http://marketscout.com.au to learn more about the boldest and most challenging venture we've undertaken.
 
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="trineoltd">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>

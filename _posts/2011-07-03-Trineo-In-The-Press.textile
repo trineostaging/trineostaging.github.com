@@ -4,6 +4,7 @@ title: Trineo in The Press
 categories:
 - news
 - blog
+- success
 ---
 
 On February the 22nd, Abhinav had a long phone interview with Tamlyn Stewart of The Press.  All of Tamlyn's notes and materials were destroyed in the earthquake, and so we regathered again to be interviewed.
@@ -11,3 +12,5 @@ On February the 22nd, Abhinav had a long phone interview with Tamlyn Stewart of 
 The difference in Trineo between late February and late June is astounding.  An expanded team, our fourth office move, and a bigger and global client base.
 
 Tamlyn's article is now available on "(external) stuff.co.nz":http://www.stuff.co.nz/the-press/business/christchurch-business/5223170/Software-firm-finds-cloud-nine
+
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="trineoltd">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>

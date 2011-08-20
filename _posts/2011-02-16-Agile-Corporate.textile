@@ -27,3 +27,4 @@ A simple example of our work would be two weeks spent building an application wh
 
 The "free" nature of the service was quickly pounced upon and some attempts were made to exploit our model.  We dealt with this by setting a maximum of 4 weeks to be spent on any deliverable.  So if we were asked to do a 6 month project for free - we would politely decline.  Usually, the cost associated with a 6 month deliverable would motivate the business to descope heavily, until they did fit within our model.  This didn't happen all the time, however when it did, the business walked away with much of their desired functionality and an actual solution as opposed to a design or concept.
 
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="trineoltd">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
