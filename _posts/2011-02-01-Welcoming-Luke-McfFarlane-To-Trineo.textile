@@ -1,0 +1,9 @@
+---
+layout: post
+title: Luke McFarlane joins the Salesforce.com Solutions team
+categories:
+- news
+- blog
+---
+
+Luke McFarlane has worked with us on a part-time basis as a developer whilst completing his studies. Luke has now graduated with a Computer Science degree from the University of Canterbury and we're excited that he will join us fulltime in our Salesforce.com team.

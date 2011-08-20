@@ -12,10 +12,10 @@ I used to work for an Australian Telco - having been a founding member of a tiny
 
 The idea was simple:
 
-# deliver high value and incur low cost - use open source MVC framework, OS and Database (LAMP)
-# minimise overheads - one developer paired with the customer's single representative
-# focus on delivery of small scope iterations and highest quality - 4 weeks to deliver a functional application
-# charge nothing to the business for application development and hosting
+# - deliver high value and incur low cost - use open source MVC framework, OS and Database (LAMP)
+# - minimise overheads - one developer paired with the customer's single representative
+# - focus on delivery of small scope iterations and highest quality - 4 weeks to deliver a functional application
+# - charge nothing to the business for application development and hosting
 
 For a low operational cost (4 developers and 9 virtual machines running a LAMP stack), the team continues to deliver on all fronts.
 
@@ -23,18 +23,18 @@ For those interested, I have elaborated elsewhere about the "(external) business
 
 We had three tenets:
 
-# integrate with nothing - build standalone apps (exception here is the integration with the company LDAP directory for SSO)
-# never build a public facing application - your work lives on the intranet alone
-# ensure you can deliver something useful and of value in maximum 4 weeks
+# - integrate with nothing - build standalone apps (exception here is the integration with the company LDAP directory for SSO)
+# - never build a public facing application - your work lives on the intranet alone
+# - ensure you can deliver something useful and of value in maximum 4 weeks
 
 For those interested, I have elaborated elsewhere about the "(external) technology used":/2011/02/Technology-Agile-Corporate/ by this team.
 
 Here's a rapid fire brain dump of the things I have learned.
 
-# Work for engaged customers.  There is no better partner than one who is motivated to deliver something of high value.
-# Build a team of "(external) polymaths":http://en.wikipedia.org/wiki/Polymath.  People who can write great code are not enough.  They should be articulate, communicative and able to manage complex delivery.
-# Quality is everything.  A four week deliverable will never be lauded as huge success unless it works beautifully on day one.
-# Reuse is paramount.  Effort is cost - and it makes no sense to repeat your effort.
-# Remove administrative overheads.  Automate the creation of infrastructure, and empower yourself to impose change easily, safely and regularly.
-# Move fast and be smart.  Deliver something small every day if possible - especially in a 4 week life cycle.
+# - Work for engaged customers.  There is no better partner than one who is motivated to deliver something of high value.
+# - Build a team of "(external) polymaths":http://en.wikipedia.org/wiki/Polymath.  People who can write great code are not enough.  They should be articulate, communicative and able to manage complex delivery.
+# - Quality is everything.  A four week deliverable will never be lauded as huge success unless it works beautifully on day one.
+# - Reuse is paramount.  Effort is cost - and it makes no sense to repeat your effort.
+# - Remove administrative overheads.  Automate the creation of infrastructure, and empower yourself to impose change easily, safely and regularly.
+# - Move fast and be smart.  Deliver something small every day if possible - especially in a 4 week life cycle.
 

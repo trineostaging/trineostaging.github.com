@@ -1,0 +1,18 @@
+---
+layout: post
+title: Trineo receives recognition from Deloitte NZ
+categories:
+- news
+- blog
+---
+
+We have been working for Deloitte New Zealand for some time now, and recently we received the following references from Matthew Haigh, Head of Innovation at Deloitte NZ.
+
+h2. Bespoke
+ 
+We have worked with Trineo to develop custom applications for our client service teams. We have found their depth of experience in Ruby on Rails very helpful in the development and support of our web applications. Their team was quickly able to work within our environments, liaising with both our technical teams and business users. We have been impressed by their work, including their ability to quickly understand the business problem and propose intuitive solutions.
+ 
+h2. Salesforce
+ 
+We have worked with Trineo to prototype a Force.com application to support workflow management within one of our teams. We have been impressed by the speed of development and the range of additional features within the platform we could utilise in the future. Trineo have been responsive, assisting us with data migration, training and technical support of the platform.
+

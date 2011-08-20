@@ -1,0 +1,21 @@
+---
+layout: post
+title: Delivering Competitive Intelligence // marketscout.com.au
+categories:
+- blog
+---
+
+h1. MarketScout
+
+MarketScout is a collaborative research toolkit that enable organisations to derive competitive intelligence.
+
+In early 2010, Patrick Brothers was introduced to Abhinav - to conduct a series of reviews of a prototypic software.  After much discussion, in August 2010, Trineo began redeveloping a minimum viable product - and as you read this - that solution is now being trialled by our first round of customers.
+
+MarketScout delivers investigative research and deep market intelligence. It is simply the easiest and most powerful way to monitor critical developments impacting your industry, customers, competitors and investments.
+
+Pitched squarely at the Australian marketplace in the first instance, our customers are getting more relevant business information and less noise than any other information solution.  It enables them to know more, in less time with prioritized morning intelligence briefs, and to allow their whole company to collaboratively research and seek competitive intelligence.
+
+Under the hood, we derive and curate complex business relationships between entities, run a news aggregator that never sleeps, looking for mention of these entities - and deliver a sleek interface to conduct ongoing research.  All of this runs on the ("external) Heroku":http://www.heroku.com platform.  
+
+Check out "(external) marketscout.com.au":http://marketscout.com.au to learn more about the boldest and most challenging venture we've undertaken.
+

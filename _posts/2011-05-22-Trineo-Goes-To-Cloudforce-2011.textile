@@ -1,0 +1,9 @@
+---
+layout: post
+title: Cloudforce Sydney
+categories:
+- blog
+---
+
+Dan and Abhinav were in Sydney today for Cloudforce Sydney, Salesforce.com's regional event. Having been last year it was easy to see how far things had come in a year as the event was double in size. The keynote session was of the same quality as the global Dreamforce event and managed to highlight several local success stories. It was great to mix and mingle with the growing APAC customer and partner network. 
+

@@ -17,6 +17,14 @@
   margin: auto;
 }
 
+.post .post-container a {
+          color: #ece2ff;
+}
+
+.post .post-container a:hover {
+          color: #99caff; 
+}
+
 .post .content {
   padding: auto;
   width: 940px;

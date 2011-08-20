@@ -1,0 +1,22 @@
+---
+layout: post
+title: Our latest work goes live - Redial
+categories:
+- news
+- blog
+---
+
+In late January, Rob Henderson MD of Redial Ltd approached us to discuss the technology he required as the foundation of his new mobile phone recycling venture.
+
+In mid February we signed off on the project, with the clear instruction - to deliver a scalable solution that allowed Redial to maintain high volumes yet maintain low costs on a per transaction basis.  Then Christchurch experienced its second major quake, and everything was put on ice for a while.
+
+Regardless of seismic events, Rob requested to push forward with the project, adding one more major requirement, now with no real fixed address - he needed a cloud solution that would let him run his business from the back of his car...
+
+The end result is a tightly integrated combination of three technologies - each with its particular strength.  The public facing trading site is built with Ruby on Rails (running on Heroku), and it connects to the back office which is built on Force.com, which then connects to the accounting engine - Xero.com.  This end to end solution delivers a fully automated lifecycle of a "recycling trade" from public interaction through to batch bank transactions and everything in between.  
+
+In Rob's words:
+
+"Mobile phone recycling relies on high volumes and low costs to remain profitable. Costs and time per transaction need to be kept to an absolute minimum. The cloud solution Trineo delivered keeps these costs to the absolute minimum. The time saved per transaction can be measured in minutes rather than seconds."
+
+"(external) redial.co.nz":http://redial.co.nz is now in production, and Rob is in a car somewhere ... running his business.
+

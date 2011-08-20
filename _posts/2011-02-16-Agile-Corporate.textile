@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Business Justification: Agile web application development in an Enterprise environment"
+categories:
+- blog
 ---
 
 Continuing from my previous post about "(external) agile development in the corporate context":/2011/02/Agile-Development/, I will point out the ways in which the team was structured and backed financially - in the context of the goals that were set for us.
@@ -11,9 +13,9 @@ The difficulty that we were to try to overcome was the inappropriate application
 
 Some essentials:
 
-# We were tasked to deliver 50 web applications of varying complexity in one year.
-# The team was fully funded so we were not seeking to constantly capitalise our work.
-# The team was therefore not required to charge for our work.  
+# - We were tasked to deliver 50 web applications of varying complexity in one year.
+# - The team was fully funded so we were not seeking to constantly capitalise our work.
+# - The team was therefore not required to charge for our work.  
 
 So the IT organisation subsidised the team's salaries, and infrastructure requirements - so as to focus exclusively on delivery as opposed to bureaucracy.
 

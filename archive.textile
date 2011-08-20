@@ -1,0 +1,13 @@
+---
+layout: default
+title: "Blog Archive"
+---
+
+<div id="post" class="post">
+  <div class="post-container">
+    {% for post in site.categories.blog %}
+      <p>{{ post.date | date: "%b %d %Y" }} > "{{ post.title }}":{{ post.url }}</p>
+    {% endfor %}
+  </div>
+</div>
+

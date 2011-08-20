@@ -6,7 +6,7 @@ title: "Blog"
   <div class='nav slider-nav'>
     <ul>
       <li>
-        <h2>Recent Posts</h2><a href="/atom.xml"><img src="/images/feed-icon-28x28.png"/></a>
+        <a href='/archive.html'>Archive</a>
       </li>
     </ul>
   </div>
@@ -16,10 +16,8 @@ title: "Blog"
         <div class='slide'>
           <div class='slide-content'>
             <div class='description'>
-              {% for post in site.categories.blog limit:2 %}
-                <h3>{{ post.title }}</h3>
-                {{ post.excerpt }}
-                <p>Published {{ post.date | date: "%b %d %Y" }}, <a href="{{ post.url }}">Read more...</a></p> 
+              {% for post in site.categories.blog limit:8 %}
+                <p>{{ post.date | date: "%b %d %Y" }} // "{{ post.title }}":{{ post.url }}</p>
               {% endfor %}
             </div>
           </div>

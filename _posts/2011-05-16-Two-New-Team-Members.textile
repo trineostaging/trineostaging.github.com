@@ -1,0 +1,10 @@
+---
+layout: post
+title: Two new members of the Salesforce.com Solutions team
+categories:
+- blog
+---
+
+Today we are joined by two new members in the Salesforce.com Solutions team. Simon Allman joins us as a Config Analyst. Simon previously worked as an SQL Report Writer for a government department. Morgan Miller joins us as a Software Developer. Morgan is a recent Computer Science graduate from the University of Canterbury.
+
+We're proud to have Simon and Morgan on board!
