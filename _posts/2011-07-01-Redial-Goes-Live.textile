@@ -12,11 +12,13 @@ In mid February we signed off on the project, with the clear instruction - to de
 
 Regardless of seismic events, Rob requested to push forward with the project, adding one more major requirement, now with no real fixed address - he needed a cloud solution that would let him run his business from the back of his car...
 
-The end result is a tightly integrated combination of three technologies - each with its particular strength.  The public facing trading site is built with Ruby on Rails (running on Heroku), and it connects to the back office which is built on Force.com, which then connects to the accounting engine - Xero.com.  This end to end solution delivers a fully automated lifecycle of a "recycling trade" from public interaction through to batch bank transactions and everything in between.  
+The entire solution delivered to Redial is cloud based and fully integrated. The front office is a Ruby on Rails application deployed on the Heroku platform. The back office is a Force.com implementation with workflows to automate business process. The back office integrates with an online accounting platform, Xero.com.
 
-In Rob's words:
+Every trade from the front office is sent to the back office, which intercepts and guides it through a custom business workflow to a completed state. Trades are reconciled daily with the online accounting engine, Xero.com from where batch banking transactions are generated. The back office holds an ever changing product catalogue - which is reconciled with the front office on a nightly basis.
 
-"Mobile phone recycling relies on high volumes and low costs to remain profitable. Costs and time per transaction need to be kept to an absolute minimum. The cloud solution Trineo delivered keeps these costs to the absolute minimum. The time saved per transaction can be measured in minutes rather than seconds."
+This solution heavily reduces the per transaction cost, which is paramount in a low margin high volume business model.
+
+Rob Henderson, Managing Director of Redial says, “Mobile phone recycling relies on high volumes and low costs to remain profitable. Costs and time per transaction need to be kept to an absolute minimum. The cloud solution Trineo delivered keeps these costs to the absolute minimum. The time saved per transaction can be measured in minutes rather than seconds. As a start up with unknown future volumes, the solution Trineo has developed needs to be capable of handling any number of transactions in a highly manageable, scaleable and efficient way. With minimal staffing requirements Redial can handle any number of trades.”
 
 "(external) redial.co.nz":http://redial.co.nz is now in production, and Rob is in a car somewhere ... running his business.
 
