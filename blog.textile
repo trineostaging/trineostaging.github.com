@@ -3,13 +3,6 @@ layout: default
 title: "Blog"
 ---
 <div class='slider' id='intro'>
-  <div class='nav slider-nav'>
-    <ul>
-      <li>
-        <a href='/archive.html'>Archive</a>
-      </li>
-    </ul>
-  </div>
   <div class='slider-bounds'>
     <div class='shadow'></div>
       <div class='slider-canvas'>
@@ -19,6 +12,7 @@ title: "Blog"
               {% for post in site.categories.blog limit:8 %}
                 <p>{{ post.date | date: "%b %d %Y" }} // "{{ post.title }}":{{ post.url }}</p>
               {% endfor %}
+              <p><a href='/archive.html'>See all our posts...</a></p>
             </div>
           </div>
         </div>
