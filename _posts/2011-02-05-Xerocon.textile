@@ -7,4 +7,3 @@ categories:
 
 Trineo was proud to be one of the sponsors of the 2nd annual Xero.com conference.  Xerocon took place over the last two days.  We enjoyed meeting many accountants and demonstrating our capability to integrate Salesforce.com and Xero as well as our track record of building Ruby on Rails applications that integrate with Xero. It was a great event and we look forward to next year.
 
-<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="trineoltd">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>

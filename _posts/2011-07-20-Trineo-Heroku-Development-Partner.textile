@@ -13,4 +13,3 @@ The efforts of the bespoke team have recently been recognised - as we are now li
 
 This makes Trineo the first company to achieve both Salesforce.com Registered Partner and Heroku Development Partner in Australia and New Zealand.
 
-<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="trineoltd">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>

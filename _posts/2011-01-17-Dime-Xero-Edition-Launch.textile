@@ -19,4 +19,3 @@ The marketing team at Xero recently helped us "launch" the product using a "(ext
 
 We're really pleased to be at this stage, and are steadily supporting the growing interest in this space.
 
-<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="trineoltd">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>

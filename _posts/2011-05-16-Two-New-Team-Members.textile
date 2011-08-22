@@ -9,4 +9,3 @@ Today we are joined by two new members in the Salesforce.com Solutions team. Sim
 
 We're proud to have Simon and Morgan on board!
 
-<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="trineoltd">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>

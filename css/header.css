@@ -14,7 +14,7 @@
 #trineo-header ul#trineo-account-nav, #trineo-header ul#trineo-section-nav { display: block; }
 #trineo-header ul#trineo-account-nav li, #trineo-header ul#trineo-section-nav li { float: left; margin-left: 10px; }
 #trineo-header ul#trineo-account-nav li:first-child, #trineo-header ul#trineo-section-nav li:first-child { margin-left: 0; }
-#trineo-header ul#trineo-account-nav li, #trineo-header ul#trineo-section-nav li { padding-left: 10px; font-size: 16px; }
+#trineo-header ul#trineo-account-nav li, #trineo-header ul#trineo-section-nav li { padding-left: 10px; font-size: 19px; }
 #trineo-header ul#trineo-account-nav li:first-child, #trineo-header ul#trineo-section-nav li:first-child { border-left: none; padding-left: 0; }
 #trineo-header ul#trineo-account-nav li#trineo-header-link-login, #trineo-header ul#trineo-section-nav li#trineo-header-link-login { border: none; margin-left: 0; padding-left: 0; }
 #trineo-header ul#trineo-account-nav li a, #trineo-header ul#trineo-section-nav li a { color: #eee; text-decoration: none; font-weight: normal; }

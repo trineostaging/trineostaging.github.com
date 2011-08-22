@@ -17,4 +17,3 @@ h2. Salesforce
  
 We have worked with Trineo to prototype a Force.com application to support workflow management within one of our teams. We have been impressed by the speed of development and the range of additional features within the platform we could utilise in the future. Trineo have been responsive, assisting us with data migration, training and technical support of the platform.
 
-<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="trineoltd">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>

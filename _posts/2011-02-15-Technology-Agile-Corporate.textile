@@ -35,4 +35,3 @@ I discussed these structures at a recent cloudcamp in Auckland - suggesting that
 
 fn1. With all due respect, we included Java in our stack just to appease a few people who felt there is no other choice for the "Enterprise"
 
-<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="trineoltd">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
