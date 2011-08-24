@@ -38,6 +38,8 @@ title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
                 <li><div class="logo-image _4"><img src="/images/logos/redial.png"/></div></li> 
                 <li><div class="logo-image _5"><img src="/images/logos/rush labs.png"/></div></li> 
                 <li><div class="logo-image _7"><img src="/images/logos/nz_loan.png"/></div></li> 
+                <li><div class="logo-image _8"><img src="/images/logos/menumate.png"/></div></li> 
+                <li><div class="logo-image _9" style="background-color: black;"><img src="/images/logos/rpm_retail.png"/></div></li> 
               </ul>
             </div>
           </div>
@@ -79,6 +81,8 @@ title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
               <li><div class="logo-image _4"><img src="/images/logos/redial.png"/></div></li> 
               <li><div class="logo-image _5"><img src="/images/logos/rush labs.png"/></div></li> 
               <li><div class="logo-image _7"><img src="/images/logos/nz_loan.png"/></div></li> 
+              <li><div class="logo-image _8"><img src="/images/logos/menumate.png"/></div></li> 
+              <li><div class="logo-image _9" style="background-color: black;"><img src="/images/logos/rpm_retail.png"/></div></li> 
             </ul>
             <div class="logo-description _1">
               <h1>Deloitte</h1>
@@ -112,6 +116,16 @@ title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
             </div>
             <div class="logo-description _7">
               <h1>NZ Loan</h1>
+              <p>
+              </p>
+            </div>
+            <div class="logo-description _8">
+              <h1>Menumate</h1>
+              <p>
+              </p>
+            </div>
+            <div class="logo-description _9">
+              <h1>RPM Retail</h1>
               <p>
               </p>
             </div>
