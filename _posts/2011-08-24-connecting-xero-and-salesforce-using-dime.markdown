@@ -6,8 +6,10 @@ categories:
 - blog
 ---
 
-Author [Jack Galilee](http://trineo.co.nz/crew.html#jg)
+Author [Jack Galilee](/crew.html#jg)
 
+Dime is our [listed Salesforce application](http://appexchange.salesforce.com/listingDetail?listingId=a0N30000003J4HdEAK) that integrates with Xero – the popular online accounting platform.
+ 
 I've been working on Dime since January this year. We've recently added public authentication to [Dime for Developers](http://appexchange.salesforce.com/listingDetail?listingId=a0N30000003J4HdEAK) and I thought that it'd be good to put up an example about how to use the functionality.
 
 Because of the way Salesforce is structured the code is highly coupled and as I wrote the tutorial it started to quickly resemble a tome rather than an agile tutorial. In order to remedy this (I hope) I've included the code with nice comments all over it explaining how each bit links to each other bit.
