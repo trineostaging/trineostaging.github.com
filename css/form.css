@@ -1,4 +1,4 @@
-#form-content { background-color: #black; color: #4fc6e0; width: 100%; overflow: hidden; margin: auto}
+#form-content { background-color: black; color: #4fc6e0; width: 100%; overflow: hidden; margin: auto}
 #form-content .content { width: 940px; margin: auto; }
 #form-content a { color: #d6e040; }
 #form-content .content .left { padding-bottom: 40px; display: inline-block; float: left; }

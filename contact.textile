@@ -50,9 +50,11 @@ title: About
         </div>
         <div class='address'>
           <p>New Zealand</p>
-          <p>&nbsp;&nbsp;+64 3 377 4001</p>
-          <p>&nbsp;&nbsp;0800 TRINEO</p>
-          <p>&nbsp;&nbsp;0800 874636</p>
+          <p>&nbsp;&nbsp;Christchurch, +64 3 377 4001</p>
+          <p>&nbsp;&nbsp;Auckland, +64 9 889 0035</p>
+          <br/>
+          <p>Australia</p>
+          <p>&nbsp;&nbsp;Sydney, +61 2 8006 2556</p>
         </div>
         <div class='address'>
           <p>Physical Location</p>
