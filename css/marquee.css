@@ -1,0 +1,23 @@
+div.logo-description {
+  margin-top: 20px;
+  display: none;
+}
+div.logo-image {
+  width: 210px;
+  height: 75px;
+  background-color: white;
+  line-height: 75px;
+  cursor: pointer;
+}
+div.logo-image img {
+  width: 100%;
+  vertical-align: middle;
+}
+div.jcarousel-skin-tango div.jcarousel-container-horizontal {
+  width: 640px;
+  background: none;
+  border: none;
+}
+div.jcarousel-skin-tango div.jcarousel-container-horizontal div.jcarousel-clip-horizontal {
+  width: 640px;
+}
