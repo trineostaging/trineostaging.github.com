@@ -31,11 +31,13 @@ title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
             <p>This lets our team spend 100% of our time focused on developing solutions for our clients, not managing servers, deployment, ongoing operations, or scaling.</p>
             <div class='marquee'>
               <ul id="jcarousel" class="jcarousel-skin-tango">
-                <li><div class="logo-image  _1"><img src="/images/logos/deloitte.png"   /></div></li> 
-                <li><div class="logo-image  _2"><img src="/images/logos/djca.png"/></div></li> 
-                <li><div class="logo-image  _3"><img src="/images/logos/ms.png"   /></div></li> 
-                <li><div class="logo-image  _4"><img src="/images/logos/redial.png"   /></div></li> 
-                <li><div class="logo-image  _5"><img src="/images/logos/rush labs.png"/></div></li> 
+                <li><div class="logo-image _1"><img src="/images/logos/deloitte.png"/></div></li> 
+                <li><div class="logo-image _2"><img src="/images/logos/djca.png"/></div></li> 
+                <li><div class="logo-image _3"><img src="/images/logos/ms.png"/></div></li> 
+                <li><div class="logo-image _6" style="background-color: black;"><img src="/images/logos/credit_express.png"/></div></li> 
+                <li><div class="logo-image _4"><img src="/images/logos/redial.png"/></div></li> 
+                <li><div class="logo-image _5"><img src="/images/logos/rush labs.png"/></div></li> 
+                <li><div class="logo-image _7"><img src="/images/logos/nz_loan.png"/></div></li> 
               </ul>
             </div>
           </div>
@@ -70,11 +72,13 @@ title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
           <h2 class='title'>Our Clients</h2>
           <div class='description marquee'>
             <ul id="jcarousel" class="jcarousel-skin-tango">
-              <li><div class="logo-image  _1"><img src="/images/logos/deloitte.png"   /></div></li> 
-              <li><div class="logo-image  _2"><img src="/images/logos/djca.png"/></div></li> 
-              <li><div class="logo-image  _3"><img src="/images/logos/ms.png"   /></div></li> 
-              <li><div class="logo-image  _4"><img src="/images/logos/redial.png"   /></div></li> 
-              <li><div class="logo-image  _5"><img src="/images/logos/rush labs.png"/></div></li> 
+              <li><div class="logo-image _1"><img src="/images/logos/deloitte.png"/></div></li> 
+              <li><div class="logo-image _2"><img src="/images/logos/djca.png"/></div></li> 
+              <li><div class="logo-image _3"><img src="/images/logos/ms.png"/></div></li> 
+              <li><div class="logo-image _6" style="background-color: black;"><img src="/images/logos/credit_express.png"/></div></li> 
+              <li><div class="logo-image _4"><img src="/images/logos/redial.png"/></div></li> 
+              <li><div class="logo-image _5"><img src="/images/logos/rush labs.png"/></div></li> 
+              <li><div class="logo-image _7"><img src="/images/logos/nz_loan.png"/></div></li> 
             </ul>
             <div class="logo-description _1">
               <h1>Deloitte</h1>
@@ -98,6 +102,16 @@ title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
             </div>
             <div class="logo-description _5">
               <h1>Rush Labs</h1>
+              <p>
+              </p>
+            </div>
+            <div class="logo-description _6">
+              <h1>Credit Express</h1>
+              <p>
+              </p>
+            </div>
+            <div class="logo-description _7">
+              <h1>NZ Loan</h1>
               <p>
               </p>
             </div>
