@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Javascript Remoting – a new Force unleashed in the Force.com world!"
-date: 2011-08-22 13:56
+date: 2011-08-15 13:56
 comments: false
 categories: 
 - blog
