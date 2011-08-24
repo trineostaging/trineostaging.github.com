@@ -14,6 +14,7 @@ div.logo-image img {
   vertical-align: middle;
 }
 div.jcarousel-skin-tango div.jcarousel-container-horizontal {
+  margin-left: -40px;
   width: 640px;
   background: none;
   border: none;
