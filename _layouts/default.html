@@ -36,6 +36,9 @@
 	});
 // ]]>
 </script>    
+    {% for css in page.styles %}
+    <link href="{{css}}" media="all" rel="stylesheet" text="text/css"/>
+    {% endfor %}
     {% for script in page.scripts %}
     <script type="text/javascript" src="{{script}}"></script>
     {% endfor %}
