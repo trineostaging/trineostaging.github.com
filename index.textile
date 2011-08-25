@@ -19,7 +19,7 @@ title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
       </li>
     </ul>
   </div>
-  <div class='slider-bounds'>
+  <div class='slider-bounds' style="height: 300px;">
     <div class='shadow'></div>
     <div class='slider-canvas'>
       <div class='slide' id='what_is_trineo'>
@@ -105,5 +105,12 @@ title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
         </div>
       </div>
     </div>
+  </div>
+  <div class="jq_logo_ticker" style="height: 100px; padding-bottom: 10px;">
+    <img src="/images/logos/DEL_PRI_CMYK.png" height="100" data-link="http://www.deloite.com"/>
+    <img src="/images/logos/noreflection-redial1.jpg" height="100" data-link="http://redial.co.nz"/>
+    <img src="/images/logos/ms_logo.png" height="100" data-link="http://market-scout"/>
+    <img src="/images/logos/rl_logo.png" height="100"/>
+    <img src="/images/logos/djca_logo.png" height="100"/>
   </div>
 </div>
