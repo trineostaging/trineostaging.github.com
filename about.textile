@@ -49,7 +49,7 @@ title: About
           <div class='description'>
             <p>Based in Christchurch, New Zealand, we are surrounded by the alps, the sea and the sprawling Canterbury plains.</p>
             <p>The majority of our clients are located in other cities and countries, and hence we have the skill, experience and motivation to deliver work remotely.</p>
-            <p>Being based here, we aspire to enjoy the great lifestyle of the location, while working for a geographically spread client base.</p>
+            <p>Based in a quiet corner of the southern hemisphere, we aspire to enjoy the great lifestyle of the location, while working for a geographically diverse client base.</p>
           </div>
         </div>
       </div>

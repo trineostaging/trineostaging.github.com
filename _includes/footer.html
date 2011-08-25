@@ -30,7 +30,7 @@
           <a href='/success.html'>Success Stories</a>
         </li>
         <li>
-          <a href='/news.html'>News & Events</a>
+          <a href='/news.html'>In The News</a>
         </li>
       </ul>
     </div>
@@ -65,9 +65,9 @@
       </ul>
     </div>
     <div class="third" id="trineo-footer-pull">
-      <h3><a href="/news.html">Recent News</a></h3>
+      <h3><a href="/news.html">Recent Blog Posts</a></h3>
       <dl>
-        {% for post in site.categories.news limit:2 %}
+        {% for post in site.categories.blog limit:2 %}
         <dt><a class="title" href="{{ post.url }}">{{ post.title }}</a></dt>
         <dd>Published: {{ post.date | date: "%d %b, %Y" }}</dd>
         {% endfor %}
