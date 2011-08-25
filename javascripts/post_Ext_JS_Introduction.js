@@ -8,7 +8,7 @@ Ext.define('Person', {
   // Add two fields both with a default type of string
   fields: [
     'name', 
-    'email'
+    'position'
   ],
 
   // Specify the relationship that a person can belong to a group
@@ -43,14 +43,14 @@ var people = Ext.create('People', {
 
   // Specify the data for the collection
   data: [
-    {name: 'Abhinav Keswani', email: 'abhinav.keswani@trineo.co.nz'},
-    {name: 'Bry Ashman',      email: 'bry.ashman@trineo.co.nz'},
-    {name: 'Daniel Fowlie',   email: 'daniel.fowlie@trineo.co.nz'},
-    {name: 'Jack Galilee',    email: 'jack.galilee@trineo.co.nz'},
-    {name: 'Luke McFarlane',  email: 'luke.mcfarlane@trineo.co.nz'},
-    {name: 'Matthew Wratt',   email: 'matt.wratt@trineo.co.nz'},
-    {name: 'Morgan Miller',   email: 'morgan.miller@trineo.co.nz'},
-    {name: 'Simon Allman',    email: 'simon.allman@trineo.co.nz'}
+    {name: 'Abhinav Keswani', position: 'Obi Wan'},
+    {name: 'Bry Ashman',      position: 'R2D2'},
+    {name: 'Daniel Fowlie',   position: 'Lando'},
+    {name: 'Jack Galilee',    position: 'Solo'},
+    {name: 'Luke McFarlane',  position: 'Luke'},
+    {name: 'Matthew Wratt',   position: 'Bobba Fett'},
+    {name: 'Morgan Miller',   position: 'Wookie'},
+    {name: 'Simon Allman',    position: 'Ewok'}
   ]
 });
 
@@ -168,15 +168,15 @@ Ext.onReady(function() {
       // Using the people store
       store: people,
 
-      // Override the default columns so we can display the person's email address as well
+      // Override the default columns so we can display the person's poistion as well
       columns: [{
         text: 'Name', 
         flex: 1, 
         dataIndex: 'name'
       }, {
-        text: 'Email',
+        text: 'Position',
         flex: 1,
-        dataIndex: 'email'
+        dataIndex: 'position'
       }],
 
       // Since this grid has a "flex" of 1 and the panel of groups displayed above it

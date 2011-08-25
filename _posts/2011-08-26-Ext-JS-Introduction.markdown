@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ext JS 4 - Introduction"
-date: 2011-08-23 15:23
+date: 2011-08-26 10:23
 comments: false
 categories: 
 - blog
@@ -17,7 +17,7 @@ scripts:
 Author [Matthew Wratt]
 
 Recently we have been working on a project that requires a rich user interface.
-We chose to use Ext JS 4 which provides alot of shiney controls as well as an MVC frame work to manage data on the page.
+We chose to use Ext JS 4 which provides alot of great controls as well as an MVC frame work to manage data on the page.
 It can also be easily configured to connect restfully to rails.  
 
 The premise: We need a simple way to assign users to permission groups.
@@ -40,7 +40,7 @@ The model for a person
       // Add two fields both with a default type of string
       fields: [
         'name', 
-        'email'
+        'position'
       ],
 
       // Specify the relationship that a person can belong to a group
@@ -81,14 +81,14 @@ Now that we have defined our data model and a method to display it we can start 
 
       // Specify the data for the collection
       data: [
-        {name: 'Abhinav Keswani', email: 'abhinav.keswani@trineo.co.nz'},
-        {name: 'Bry Ashman',      email: 'bry.ashman@trineo.co.nz'},
-        {name: 'Daniel Fowlie',   email: 'daniel.fowlie@trineo.co.nz'},
-        {name: 'Jack Galilee',    email: 'jack.galilee@trineo.co.nz'},
-        {name: 'Luke McFarlane',  email: 'luke.mcfarlane@trineo.co.nz'},
-        {name: 'Matthew Wratt',   email: 'matt.wratt@trineo.co.nz'},
-        {name: 'Morgan Miller',   email: 'morgan.miller@trineo.co.nz'},
-        {name: 'Simon Allman',    email: 'simon.allman@trineo.co.nz'}
+        {name: 'Abhinav Keswani', position: 'Obi Wan'},
+        {name: 'Bry Ashman',      position: 'R2D2'},
+        {name: 'Daniel Fowlie',   position: 'Lando'},
+        {name: 'Jack Galilee',    position: 'Solo'},
+        {name: 'Luke McFarlane',  position: 'Luke'},
+        {name: 'Matthew Wratt',   position: 'Bobba Fett'},
+        {name: 'Morgan Miller',   position: 'Wookie'},
+        {name: 'Simon Allman',    position: 'Ewok'}
       ]
     });
 
@@ -211,15 +211,15 @@ Now we need to put it all together
           // Using the people store
           store: people,
 
-          // Override the default columns so we can display the person's email address as well
+          // Override the default columns so we can display the person's position as well
           columns: [{
             text: 'Name', 
             flex: 1, 
             dataIndex: 'name'
           }, {
-            text: 'Email',
+            text: 'Position',
             flex: 1,
-            dataIndex: 'email'
+            dataIndex: 'position'
           }],
 
           // Since this grid has a "flex" of 1 and the panel of groups displayed above it
@@ -228,6 +228,9 @@ Now we need to put it all together
         }]
       });
     });
+
+
+Now users can be dragged into a group.
 
 <div id="example" style="margin-top: 20px;">
 </div>
