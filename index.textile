@@ -17,6 +17,9 @@ title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
       <li>
         <a href='#our_clients' class=" ">Our Clients</a>
       </li>
+      <li>
+        <a href='#affiliates' class=" ">Affiliates</a>
+      </li>
     </ul>
   </div>
   <div class='slider-bounds'>
@@ -131,6 +134,30 @@ title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
             </div>
           </div>
         </div>
+      </div>
+      <div class='slide' id='affiliates'>
+        <div class='slide-content'>
+          <h2 class='title'>Affiliates</h2>
+          <div class='description'>
+            <ul id='affiliates'>
+              <li id='salesforce-affiliate' class='affiliate-description'>
+                <p>
+                  Thundercats nostrud sartorial, ut adipisicing vegan delectus assumenda chambray gentrify. Salvia 3 wolf moon aliquip, ad aliqua banh mi chambray reprehenderit consequat. 
+                </p>
+              </li>
+              <li id='heroku-affiliate' class='affiliate-description'>
+                <p>
+                  Put a bird on it skateboard sustainable master cleanse, fixie lomo mcsweeney's gentrify scenester lo-fi next level stumptown messenger bag cardigan you probably haven't heard of them.
+                </p>
+              </li>
+              <li id='xero-affiliate' class='affiliate-description'>
+                <p>
+                  Photo booth keffiyeh helvetica marfa, locavore terry richardson thundercats hoodie. Vegan tumblr four loko single-origin coffee, stumptown farm-to-table jean shorts twee trust fund. 
+                </p>
+              </li>
+            </ul>
+          </div> 
+        </div> 
       </div>
     </div>
   </div>

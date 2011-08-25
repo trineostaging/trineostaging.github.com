@@ -1460,3 +1460,21 @@ body.generalinfo #content {
     width: 136px; }
   .home #heroku-footer #heroku-footer-platform {
     width: 135px; }
+
+#affiliates li.affiliate-description  {
+  margin-bottom: 1em; 
+  background-repeat: no-repeat; }
+
+  #affiliates li.affiliate-description p {
+    margin-left: 225px; }
+
+#xero-affiliate {
+  background-image: url('/images/logos/xero_partner.png');
+  background-position: 0 -12px; }
+#heroku-affiliate {
+  background-image: url('/images/logos/heroku.png');
+  background-position: 0 2px; }
+
+#salesforce-affiliate {
+  background-image: url('/images/logos/salesforce.png'); 
+  background-position: 0 7px; }
