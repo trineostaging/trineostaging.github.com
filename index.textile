@@ -17,6 +17,9 @@ title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
       <li>
         <a href='#our_clients' class=" ">Our Clients</a>
       </li>
+      <li>
+        <a href='#affiliates' class=" ">Affiliates</a>
+      </li>
     </ul>
   </div>
   <div class='slider-bounds' style="height: 300px;">
@@ -31,11 +34,15 @@ title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
             <p>This lets our team spend 100% of our time focused on developing solutions for our clients, not managing servers, deployment, ongoing operations, or scaling.</p>
             <div class='marquee'>
               <ul id="jcarousel" class="jcarousel-skin-tango">
-                <li><div class="logo-image  _1"><img src="/images/logos/deloitte.png"   /></div></li> 
-                <li><div class="logo-image  _2"><img src="/images/logos/djca.png"/></div></li> 
-                <li><div class="logo-image  _3"><img src="/images/logos/ms.png"   /></div></li> 
-                <li><div class="logo-image  _4"><img src="/images/logos/redial.png"   /></div></li> 
-                <li><div class="logo-image  _5"><img src="/images/logos/rush labs.png"/></div></li> 
+                <li><div class="logo-image _1"><img src="/images/logos/deloitte.png"/></div></li> 
+                <li><div class="logo-image _2"><img src="/images/logos/djca.png"/></div></li> 
+                <li><div class="logo-image _3"><img src="/images/logos/ms.png"/></div></li> 
+                <li><div class="logo-image _6" style="background-color: black;"><img src="/images/logos/credit_express.png"/></div></li> 
+                <li><div class="logo-image _4"><img src="/images/logos/redial.png"/></div></li> 
+                <li><div class="logo-image _5"><img src="/images/logos/rush labs.png"/></div></li> 
+                <li><div class="logo-image _7"><img src="/images/logos/nz_loan.png"/></div></li> 
+                <li><div class="logo-image _8"><img src="/images/logos/menumate.png"/></div></li> 
+                <li><div class="logo-image _9" style="background-color: black;"><img src="/images/logos/rpm_retail.png"/></div></li> 
               </ul>
             </div>
           </div>
@@ -70,11 +77,15 @@ title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
           <h2 class='title'>Our Clients</h2>
           <div class='description marquee'>
             <ul id="jcarousel" class="jcarousel-skin-tango">
-              <li><div class="logo-image  _1"><img src="/images/logos/deloitte.png"   /></div></li> 
-              <li><div class="logo-image  _2"><img src="/images/logos/djca.png"/></div></li> 
-              <li><div class="logo-image  _3"><img src="/images/logos/ms.png"   /></div></li> 
-              <li><div class="logo-image  _4"><img src="/images/logos/redial.png"   /></div></li> 
-              <li><div class="logo-image  _5"><img src="/images/logos/rush labs.png"/></div></li> 
+              <li><div class="logo-image _1"><img src="/images/logos/deloitte.png"/></div></li> 
+              <li><div class="logo-image _2"><img src="/images/logos/djca.png"/></div></li> 
+              <li><div class="logo-image _3"><img src="/images/logos/ms.png"/></div></li> 
+              <li><div class="logo-image _6" style="background-color: black;"><img src="/images/logos/credit_express.png"/></div></li> 
+              <li><div class="logo-image _4"><img src="/images/logos/redial.png"/></div></li> 
+              <li><div class="logo-image _5"><img src="/images/logos/rush labs.png"/></div></li> 
+              <li><div class="logo-image _7"><img src="/images/logos/nz_loan.png"/></div></li> 
+              <li><div class="logo-image _8"><img src="/images/logos/menumate.png"/></div></li> 
+              <li><div class="logo-image _9" style="background-color: black;"><img src="/images/logos/rpm_retail.png"/></div></li> 
             </ul>
             <div class="logo-description _1">
               <h1>Deloitte</h1>
@@ -101,8 +112,52 @@ title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
               <p>
               </p>
             </div>
+            <div class="logo-description _6">
+              <h1>Credit Express</h1>
+              <p>
+              </p>
+            </div>
+            <div class="logo-description _7">
+              <h1>NZ Loan</h1>
+              <p>
+              </p>
+            </div>
+            <div class="logo-description _8">
+              <h1>Menumate</h1>
+              <p>
+              </p>
+            </div>
+            <div class="logo-description _9">
+              <h1>RPM Retail</h1>
+              <p>
+              </p>
+            </div>
           </div>
         </div>
+      </div>
+      <div class='slide' id='affiliates'>
+        <div class='slide-content'>
+          <h2 class='title'>Affiliates</h2>
+          <div class='description'>
+            <ul id='affiliates'>
+              <li id='salesforce-affiliate' class='affiliate-description'>
+                <p>
+                  Thundercats nostrud sartorial, ut adipisicing vegan delectus assumenda chambray gentrify. Salvia 3 wolf moon aliquip, ad aliqua banh mi chambray reprehenderit consequat. 
+                </p>
+              </li>
+              <li id='heroku-affiliate' class='affiliate-description'>
+                <p>
+                  Put a bird on it skateboard sustainable master cleanse, fixie lomo mcsweeney's gentrify scenester lo-fi next level stumptown messenger bag cardigan you probably haven't heard of them.
+                </p>
+              </li>
+              <li id='xero-affiliate' class='affiliate-description'>
+                <p>
+                  Photo booth keffiyeh helvetica marfa, locavore terry richardson thundercats hoodie. Vegan tumblr four loko single-origin coffee, stumptown farm-to-table jean shorts twee trust fund. 
+                </p>
+              </li>
+            </ul>
+          </div> 
+        </div> 
       </div>
     </div>
   </div>

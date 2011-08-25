@@ -36,6 +36,9 @@
 	});
 // ]]>
 </script>    
+    {% for script in page.scripts %}
+    <script type="text/javascript" src="{{script}}"></script>
+    {% endfor %}
   </head>
   <body class='about' id=''>
     <div class='container'>
