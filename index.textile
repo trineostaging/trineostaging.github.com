@@ -9,20 +9,14 @@ title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
         <a href='#what_is_trineo' class="active">What Is Trineo?</a>
       </li>
       <li>
-        <a href='#our_philosophy' class=" ">Our Philosophy</a>
-      </li>
-      <li>
-        <a href='#our_crew' class=" ">Our Crew</a>
-      </li>
-      <li>
         <a href='#our_clients' class=" ">Our Clients</a>
       </li>
       <li>
-        <a href='#affiliates' class=" ">Affiliates</a>
+        <a href='#affiliates' class=" ">Our Partners</a>
       </li>
     </ul>
   </div>
-  <div class='slider-bounds' style="height: 300px;">
+  <div class="slider-bounds">
     <div class='shadow'></div>
     <div class='slider-canvas'>
       <div class='slide' id='what_is_trineo'>
@@ -37,38 +31,12 @@ title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
                 <li><div class="logo-image _1"><img src="/images/logos/deloitte.png"/></div></li> 
                 <li><div class="logo-image _2"><img src="/images/logos/djca.png"/></div></li> 
                 <li><div class="logo-image _3"><img src="/images/logos/ms.png"/></div></li> 
-                <li><div class="logo-image _6" style="background-color: black;"><img src="/images/logos/credit_express.png"/></div></li> 
                 <li><div class="logo-image _4"><img src="/images/logos/redial.png"/></div></li> 
                 <li><div class="logo-image _5"><img src="/images/logos/rush labs.png"/></div></li> 
-                <li><div class="logo-image _7"><img src="/images/logos/nz_loan.png"/></div></li> 
                 <li><div class="logo-image _8"><img src="/images/logos/menumate.png"/></div></li> 
                 <li><div class="logo-image _9" style="background-color: black;"><img src="/images/logos/rpm_retail.png"/></div></li> 
               </ul>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class='slide' id='our_philosophy'>
-        <div class='slide-content'>
-          <h2 class='title'>Our Philosophy</h2>
-          <div class='description'>
-            <h3>Rapid Delivery</h3>
-              <p>We work closely with our customers, use highly effective tools for project management, practice complete transparency - striving to deliver at the highest standard with a smart approach that does away with bureaucratic process.</p>
-            <h3>Continuous Improvement</h3>
-              <p>We practice continual self and solicited critique to find better ways of doing things, while adapting to new techniques and improving upon our craft to deliver the very best we can.</p>
-            <h3>Quality</h3>
-              <p>Our work is guaranteed to be delivered at a high quality.  We employ techniques to deliver rapidly, in bite sized chunks and our frequent automated testing ensures we deliver solutions that match our customer&#8217;s expectations.</p>
-          </div>
-        </div>
-      </div>
-      <div class='slide' id='our_crew'>
-        <div class='slide-content'>
-          <h2 class='title'>Our Crew</h2>
-          <div class='description'>
-            <p>We are a small team of 9 people, 7 full time and 2 part time.</p>
-            <p>Don't let our size fool you - between us we pack quite a punch.  In our eyes, a small, nimble and motivated team will always deliver better solutions, to budget and within allotted timeframes.</p>
-            <p>In past lives, our team has worked in a variety of roles, in diverse industries - working on large scale web infrastructure/platforms and data processing solutions.</p>
-            <p>Come and "meet our team":crew.html ... </p>
           </div>
         </div>
       </div>
@@ -80,7 +48,6 @@ title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
               <li><div class="logo-image _1"><img src="/images/logos/deloitte.png"/></div></li> 
               <li><div class="logo-image _2"><img src="/images/logos/djca.png"/></div></li> 
               <li><div class="logo-image _3"><img src="/images/logos/ms.png"/></div></li> 
-              <li><div class="logo-image _6" style="background-color: black;"><img src="/images/logos/credit_express.png"/></div></li> 
               <li><div class="logo-image _4"><img src="/images/logos/redial.png"/></div></li> 
               <li><div class="logo-image _5"><img src="/images/logos/rush labs.png"/></div></li> 
               <li><div class="logo-image _7"><img src="/images/logos/nz_loan.png"/></div></li> 
@@ -142,17 +109,17 @@ title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
             <ul id='affiliates'>
               <li id='salesforce-affiliate' class='affiliate-description'>
                 <p>
-                  Thundercats nostrud sartorial, ut adipisicing vegan delectus assumenda chambray gentrify. Salvia 3 wolf moon aliquip, ad aliqua banh mi chambray reprehenderit consequat. 
+                  As Salesforce.com Consulting Partners, we are certified Consultants, Developers and Administrators, we deliver projects on all aspects of the best CRM platform available today.
                 </p>
               </li>
               <li id='heroku-affiliate' class='affiliate-description'>
                 <p>
-                  Put a bird on it skateboard sustainable master cleanse, fixie lomo mcsweeney's gentrify scenester lo-fi next level stumptown messenger bag cardigan you probably haven't heard of them.
+                  Heroku allows us to deploy web applications with painless scaling of resources, and a multitude of highly functional addons enabling us to deliver quality at speed. We are proudly a Heroku Development Partner.
                 </p>
               </li>
               <li id='xero-affiliate' class='affiliate-description'>
                 <p>
-                  Photo booth keffiyeh helvetica marfa, locavore terry richardson thundercats hoodie. Vegan tumblr four loko single-origin coffee, stumptown farm-to-table jean shorts twee trust fund. 
+                  We use Xero for our own business, and we love it.  As listed Xero Network Partners, we're recognised to have numerous successful integration projects for both custom solutions, and for the Salesforce.com CRM.
                 </p>
               </li>
             </ul>
@@ -160,12 +127,5 @@ title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
         </div> 
       </div>
     </div>
-  </div>
-  <div class="jq_logo_ticker" style="height: 100px; padding-bottom: 10px;">
-    <img src="/images/logos/DEL_PRI_CMYK.png" height="100" data-link="http://www.deloite.com"/>
-    <img src="/images/logos/noreflection-redial1.jpg" height="100" data-link="http://redial.co.nz"/>
-    <img src="/images/logos/ms_logo.png" height="100" data-link="http://market-scout"/>
-    <img src="/images/logos/rl_logo.png" height="100"/>
-    <img src="/images/logos/djca_logo.png" height="100"/>
   </div>
 </div>
