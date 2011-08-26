@@ -50,53 +50,104 @@ title: "Salesforce | Ruby on Rails | Heroku | Atlassian"
               <li><div class="logo-image _3"><img src="/images/logos/ms.png"/></div></li> 
               <li><div class="logo-image _4"><img src="/images/logos/redial.png"/></div></li> 
               <li><div class="logo-image _5"><img src="/images/logos/rush labs.png"/></div></li> 
-              <li><div class="logo-image _7"><img src="/images/logos/nz_loan.png"/></div></li> 
               <li><div class="logo-image _8"><img src="/images/logos/menumate.png"/></div></li> 
               <li><div class="logo-image _9" style="background-color: black;"><img src="/images/logos/rpm_retail.png"/></div></li> 
             </ul>
             <div class="logo-description _1">
-              <h1>Deloitte</h1>
               <p>
+                Developing Ruby on Rails and Force.com solutions for
+                the Innovation Council, our work spans multiple business
+                units within Deloitte NZ.
+              </p>
+              <p>
+                We have assisted Deloitte NZ in delivering highly automated
+                in-house application infrastructure, with a view to rapidly
+                developing and frequently deploying prototypic solutions for
+                business.
+              </p>
+              <p>
+                "Read more ...":/2011/06/Recognition-From-DeloitteNZ/
               </p>
             </div>
             <div class="logo-description _2">
-              <h1>DJCA</h1>
               <p>
+                In 2011 DJCA were named Xero Partner of the Year. With their fresh
+                approach to accounting and fast growth, DJCA required a CRM system
+                that could handle their demands and integrate well with other
+                systems. Trineo has worked with DJCA from day one of their
+                Salesforce.com deployment to deliver a solution to meet their
+                requirements. DJCA believe in the way of the cloud and a key
+                requirement was integrating with other cloud systems. Trineo has
+                built integrations with Workflowmax and Xero so there is no double
+                handling of data. Most recently Trineo has delivered the
+                innovative Insights Report that DJCA deliver to their customers.
               </p>
             </div>
             <div class="logo-description _3">
-              <h1>MarketScout</h1>
               <p>
+                MarketScout is used by decision-makers running companies,
+                small-business, banks and financial institutions, funds and
+                government agencies. It captures open-source data, structures
+                it, and enables people to visualize and interact with complex
+                systems and new information, to better understand Australian
+                economies and markets.
+              </p>
+              <p>
+                The MarketScout application has been built from the ground up by the Trineo
+                Bespoke Solutions team, using a carefully selected suite of
+                technologies and patterns.  MarketScout runs on Heroku.  "(external) Read more ...":http://marketscout.com.au
               </p>
             </div>
             <div class="logo-description _4">
-              <h1>Redial</h1>
               <p>
+                Redial.co.nz is the amalgamation of efforts from our entire team as a
+                tightly integrated Rails front office, and a Force.com back
+                office.  The level of integration, efficiency, and automation in
+                straight-through processing enables and supports the high volume,
+                low margin transactional business model of such a venture.
+              </p>
+              <p>
+                Delivering scalable cloud solutions for startup ventures has
+                become a cornerstone service of our team.  Engaged for our
+                expertise, we proudly have delivered a robust starting point for
+                Redial Ltd. "Read more ...":/2011/07/Redial-Goes-Live/
               </p>
             </div>
             <div class="logo-description _5">
-              <h1>Rush Labs</h1>
               <p>
-              </p>
-            </div>
-            <div class="logo-description _6">
-              <h1>Credit Express</h1>
-              <p>
-              </p>
-            </div>
-            <div class="logo-description _7">
-              <h1>NZ Loan</h1>
-              <p>
+                Our work alongside Rush Labs on the MarketScout application has
+                forged a strong partnership.  As collaborators, and clients we
+                have a deep respect for Rush, and proudly stand beside them to
+                deliver finely tuned and highly capable technology solutions for
+                business ventures.
               </p>
             </div>
             <div class="logo-description _8">
-              <h1>Menumate</h1>
               <p>
+                Menumate have constantly pushed the boundaries of what
+                Salesforce.com can achieve and Trineo has been with them to
+                deliver. Trineo have integrated Salesforce.com with each Menumate
+                franchise Xero organisation, allowing back office support functions
+                to be handled centrally and yet maintain billing through the appropriate
+                franchise.  We've helped Menumate integrate Salesforce.com with
+                their own software for handling license generation and even
+                built label printing functionality for fast delivery of
+                consumables to clients.
               </p>
             </div>
             <div class="logo-description _9">
-              <h1>RPM Retail</h1>
               <p>
+                As one of our longest standing clients, we have worked closely
+                with RPM Retail in a supporting role to help deliver supporting
+                technologies to assist their sales and development teams operate
+                with greater efficiency and capability.
+              </p>
+              <p>
+                With extensive consulting initially, we have implemented a
+                complete Atlassian based collaboration suite for the RPM team,
+                which integrates with in-house systems, and also with the
+                Salesforce.com CRM that we have delivered for use by the sales
+                and support teams.
               </p>
             </div>
           </div>
