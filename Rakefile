@@ -79,6 +79,7 @@ task :push, :env do |t, args|
     exit
   end
   system "cat CNAME-#{env} > CNAME"
+  system "cp _site/sitemap.xml sitemap.xml"
   system "git add ."
   system "git add -u"
   puts "\n## Commiting: Site updated at #{Time.now.utc}"
