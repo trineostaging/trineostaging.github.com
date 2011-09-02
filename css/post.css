@@ -107,6 +107,10 @@
 	padding-top: 0.5em;
 }
 
+.post li {
+  list-style-type: disc; 
+}
+
 .related {
 	margin-top: 2em;
 }
