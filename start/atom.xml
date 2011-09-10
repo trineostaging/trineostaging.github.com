@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>Trineo</title>
+ <link href="http://trineo.co.nz/atom.xml" rel="self"/>
+ <link href="http://trineo.co.nz/"/>
+ <updated>2011-03-22T20:12:38+13:00</updated>
+ <id>http://trineo.co.nz/</id>
+ <author>
+   <name>Abhinav Keswani</name>
+   <email>abhinav.keswani@trineo.co.nz</email>
+ </author>
+ 
+ <entry>
+   <title>Technology Background: Agile web application development in an Enterprise environment</title>
+   <link href="http://trineo.co.nz/2011/02/Technology-Agile-Corporate"/>
+   <updated>2011-02-14T00:00:00+13:00</updated>
+   <id>http://trineo.co.nz/2011/02/Technology-Agile-Corporate</id>
+   <content type="html">&lt;p&gt;Continuing from my previous post about &lt;a href=&quot;/2011/02/Agile-Development/&quot; class=&quot;external&quot;&gt;agile development in the corporate context&lt;/a&gt;, I will describe the technology we used to be able to rapidly deliver web applications.&lt;/p&gt;
+&lt;p&gt;To deliver 50 web applications in a year we needed some basic structures in place:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;An application framework which would allow us to rapidly create and maintain web apps, with in-built flexibility given ever changing requirements&lt;/li&gt;
+	&lt;li&gt;An underlying infrastructure that would serve 150 apps (suggesting a 3 year lifespan)&lt;/li&gt;
+	&lt;li&gt;A modicum of secure controls over our application environment and infrastructure so as to autonomously deliver our work&lt;/li&gt;
+	&lt;li&gt;Automation&lt;/li&gt;
+	&lt;li&gt;More automation&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We chose to use the following:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;The &lt;a href=&quot;http://www.symfony.org&quot; class=&quot;external&quot;&gt;Symfony &lt;span class=&quot;caps&quot;&gt;MVC&lt;/span&gt; framework&lt;/a&gt;, and somewhat confusingly, the &lt;a href=&quot;http://seamframework.org&quot; class=&quot;external&quot;&gt;JBoss Seam framework&lt;/a&gt; &lt;sup class=&quot;footnote&quot;&gt;&lt;a href=&quot;#fn1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://www.redhat.com/rhel&quot; class=&quot;external&quot;&gt;Red Hat Enterprise Linux&lt;/a&gt; as it was our corporate standard Linux &amp;#8211; to create dev, test and prod environments&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://httpd.apache.org&quot; class=&quot;external&quot;&gt;Apache&lt;/a&gt;, &lt;a href=&quot;http://www.mysql.com&quot; class=&quot;external&quot;&gt;MySQL&lt;/a&gt; to round out web serving and the database of choice&lt;/li&gt;
+	&lt;li&gt;A small arsenal of shell and perl combined with clever sudo access for non-root users to give thorough and secure control over these hosts&lt;/li&gt;
+	&lt;li&gt;Atlassian &lt;a href=&quot;http://www.atlassian.com/software/jira/&quot; class=&quot;external&quot;&gt;Jira&lt;/a&gt; and &lt;a href=&quot;http://www.atlassian.com/software/confluence&quot; class=&quot;external&quot;&gt;Confluence&lt;/a&gt; for issue tracking and documentation respectively.&lt;/li&gt;
+	&lt;li&gt;Atlassian &lt;a href=&quot;http://www.atlassian.com/software/fisheye/&quot; class=&quot;external&quot;&gt;Fisheye&lt;/a&gt; and &lt;a href=&quot;http://www.atlassian.com/software/crucible/&quot; class=&quot;external&quot;&gt;Crucible&lt;/a&gt; plus Subversion for development peer review and source code management respectively.&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;http://socialcast.com&quot; class=&quot;external&quot;&gt;Socialcast&lt;/a&gt; for inside the firewall microblogging and collaboration&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;With all of the above, we were able to manage the delivery of an entire web application from concept to reality without the need to engage any other IT teams.  Well, that&amp;#8217;s not entirely true &amp;#8211; we needed to create new URLs for these apps, so we&amp;#8217;d need to request a new &lt;span class=&quot;caps&quot;&gt;CNAME&lt;/span&gt; record which would take sometimes 2 weeks&amp;#8230;(!!!)&amp;#8230;&lt;/p&gt;
+&lt;p&gt;We quickly realised that there were common components being delivered repeatedly &amp;#8211; such as the authentication layer in these applications needed to authenticate against Active Directory.  Or, that employee lookups were being performed against that corporate directory.  We quickly developed reusable modules of code that would allow any app to have these common functions without needing to write any code.&lt;/p&gt;
+&lt;p&gt;Knowing what I know now, I would humbly suggest a few changes to the above stack &amp;#8211; but more of that will be covered later &amp;#8230;&lt;/p&gt;
+&lt;p&gt;I discussed these structures at a recent cloudcamp in Auckland &amp;#8211; suggesting that a PaaS approach to deployment scalable web apps would be ideal for this team, however venturing outside the firewall &amp;#8211; especially on cloud platforms is a pretty big ask for a somewhat conservative company.&lt;/p&gt;
+&lt;p class=&quot;footnote&quot; id=&quot;fn1&quot;&gt;&lt;sup&gt;1&lt;/sup&gt; With all due respect, we included Java in our stack just to appease a few people who felt there is no other choice for the &amp;#8220;Enterprise&amp;#8221;&lt;/p&gt;</content>
+   <author>
+     <name>Abhinav Keswani</name>
+     <uri>http://trineo.co.nz/about.html</uri>
+   </author>
+ </entry>
+ 
+ <entry>
+   <title>Rapid development at Enterprise scale</title>
+   <link href="http://trineo.co.nz/2011/02/Agile-Development"/>
+   <updated>2011-02-14T00:00:00+13:00</updated>
+   <id>http://trineo.co.nz/2011/02/Agile-Development</id>
+   <content type="html">&lt;h1&gt;Express Solutions &amp;#8211; by Abhinav Keswani&lt;/h1&gt;
+&lt;p&gt;I used to work for an Australian Telco &amp;#8211; having been a founding member of a tiny team tasked with the delivery of short, sweet web apps that can be delivered quickly, and will resolve &amp;#8220;low hanging fruit&amp;#8221; business problems.  The team was created to rapidly respond to smaller business problems that were often overlooked, or subject to inappropriate costs as they were forced through a large project lifecycle.&lt;/p&gt;
+&lt;p&gt;The idea was simple:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;deliver high value and incur low cost &amp;#8211; use open source &lt;span class=&quot;caps&quot;&gt;MVC&lt;/span&gt; framework, OS and Database (&lt;span class=&quot;caps&quot;&gt;LAMP&lt;/span&gt;)&lt;/li&gt;
+	&lt;li&gt;minimise overheads &amp;#8211; one developer paired with the customer&amp;#8217;s single representative&lt;/li&gt;
+	&lt;li&gt;focus on delivery of small scope iterations and highest quality &amp;#8211; 4 weeks to deliver a functional application&lt;/li&gt;
+	&lt;li&gt;charge nothing to the business for application development and hosting&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For a low operational cost (4 developers and 9 virtual machines running a &lt;span class=&quot;caps&quot;&gt;LAMP&lt;/span&gt; stack), the team continues to deliver on all fronts.&lt;/p&gt;
+&lt;p&gt;For those interested, I have elaborated elsewhere about the &lt;a href=&quot;/2011/02/Agile-Corporate/&quot; class=&quot;external&quot;&gt;business justifications&lt;/a&gt; for this team.&lt;/p&gt;
+&lt;p&gt;We had three tenets:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;integrate with nothing &amp;#8211; build standalone apps (exception here is the integration with the company &lt;span class=&quot;caps&quot;&gt;LDAP&lt;/span&gt; directory for &lt;span class=&quot;caps&quot;&gt;SSO&lt;/span&gt;)&lt;/li&gt;
+	&lt;li&gt;never build a public facing application &amp;#8211; your work lives on the intranet alone&lt;/li&gt;
+	&lt;li&gt;ensure you can deliver something useful and of value in maximum 4 weeks&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For those interested, I have elaborated elsewhere about the &lt;a href=&quot;/2011/02/Technology-Agile-Corporate/&quot; class=&quot;external&quot;&gt;technology used&lt;/a&gt; by this team.&lt;/p&gt;
+&lt;p&gt;Here&amp;#8217;s a rapid fire brain dump of the things I have learned.&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;Work for engaged customers.  There is no better partner than one who is motivated to deliver something of high value.&lt;/li&gt;
+	&lt;li&gt;Build a team of &lt;a href=&quot;http://en.wikipedia.org/wiki/Polymath&quot; class=&quot;external&quot;&gt;polymaths&lt;/a&gt;.  People who can write great code are not enough.  They should be articulate, communicative and able to manage complex delivery.&lt;/li&gt;
+	&lt;li&gt;Quality is everything.  A four week deliverable will never be lauded as huge success unless it works beautifully on day one.&lt;/li&gt;
+	&lt;li&gt;Reuse is paramount.  Effort is cost &amp;#8211; and it makes no sense to repeat your effort.&lt;/li&gt;
+	&lt;li&gt;Remove administrative overheads.  Automate the creation of infrastructure, and empower yourself to impose change easily, safely and regularly.&lt;/li&gt;
+	&lt;li&gt;Move fast and be smart.  Deliver something small every day if possible &amp;#8211; especially in a 4 week life cycle.&lt;/li&gt;
+&lt;/ol&gt;</content>
+   <author>
+     <name>Abhinav Keswani</name>
+     <uri>http://trineo.co.nz/about.html</uri>
+   </author>
+ </entry>
+ 
+ <entry>
+   <title>Business Justification: Agile web application development in an Enterprise environment</title>
+   <link href="http://trineo.co.nz/2011/02/Agile-Corporate"/>
+   <updated>2011-02-14T00:00:00+13:00</updated>
+   <id>http://trineo.co.nz/2011/02/Agile-Corporate</id>
+   <content type="html">&lt;p&gt;Continuing from my previous post about &lt;a href=&quot;/2011/02/Agile-Development/&quot; class=&quot;external&quot;&gt;agile development in the corporate context&lt;/a&gt;, I will point out the ways in which the team was structured and backed financially &amp;#8211; in the context of the goals that were set for us.&lt;/p&gt;
+&lt;p&gt;Essentially, the creation of a small agile team was a PR exercise to demonstrate to business that IT still responded quickly and with quality.&lt;/p&gt;
+&lt;p&gt;The difficulty that we were to try to overcome was the inappropriate application of large scale project costs and timelines to smaller requests from business.  Usually, just the ramp up cost of any IT project would instantly negate the benefit of a small to medium sized business project.&lt;/p&gt;
+&lt;p&gt;Some essentials:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;We were tasked to deliver 50 web applications of varying complexity in one year.&lt;/li&gt;
+	&lt;li&gt;The team was fully funded so we were not seeking to constantly capitalise our work.&lt;/li&gt;
+	&lt;li&gt;The team was therefore not required to charge for our work.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So the IT organisation subsidised the team&amp;#8217;s salaries, and infrastructure requirements &amp;#8211; so as to focus exclusively on delivery as opposed to bureaucracy.&lt;/p&gt;
+&lt;p&gt;The other and perhaps most important aspect to all of this is that the team was backed by the &lt;span class=&quot;caps&quot;&gt;CIO&lt;/span&gt;.  Although he set a challenging goal, he also cleared the path for us to quickly build the required infrastructure and gave us the autonomy to decide how we would achieve the goals set.  A rare and incredible opportunity for us!&lt;/p&gt;
+&lt;p&gt;Motivated by the need to simply add value &amp;#8211; we built a cheap and high quality open source infrastructure, and then proceeded to meet the challenges that were set.&lt;/p&gt;
+&lt;p&gt;A simple example of our work would be two weeks spent building an application which would scan workloads of a provisioning team, and prompt team members when critical dates were being approached so that customer service KPI&amp;#8217;s were met.  This took 2 weeks or 10 working days to build &amp;#8211; at a calculated expense of $10K, and saved the business $147K per annum.  This &lt;span class=&quot;caps&quot;&gt;ROI&lt;/span&gt; calculation was based primarily on time saved on a weekly basis &amp;#8211; not to mention the clear improvements in customer service as the provisioning team stayed on top of their work and their timely communications with customers in case of delay.&lt;/p&gt;
+&lt;p&gt;The &amp;#8220;free&amp;#8221; nature of the service was quickly pounced upon and some attempts were made to exploit our model.  We dealt with this by setting a maximum of 4 weeks to be spent on any deliverable.  So if we were asked to do a 6 month project for free &amp;#8211; we would politely decline.  Usually, the cost associated with a 6 month deliverable would motivate the business to descope heavily, until they did fit within our model.  This didn&amp;#8217;t happen all the time, however when it did, the business walked away with much of their desired functionality and an actual solution as opposed to a design or concept.&lt;/p&gt;</content>
+   <author>
+     <name>Abhinav Keswani</name>
+     <uri>http://trineo.co.nz/about.html</uri>
+   </author>
+ </entry>
+ 
+ <entry>
+   <title>Trineo releases first commercial product</title>
+   <link href="http://trineo.co.nz/2011/01/Dime-Xero-Edition-Launch"/>
+   <updated>2011-01-17T00:00:00+13:00</updated>
+   <id>http://trineo.co.nz/2011/01/Dime-Xero-Edition-Launch</id>
+   <content type="html">&lt;h1&gt;Trineo releases their first commercial product &amp;#8211; integrating Xero and Salesforce&lt;/h1&gt;
+&lt;p&gt;After over a year of work in the space of integrating Xero and Salesforce, and repeated customer engagements to deliver this over and over again, we developed and released our first commercial product listed on the &lt;a href=&quot;https://sites.secure.force.com/appexchange/listingDetail?listingId=a0N30000003J4HdEAK&quot; class=&quot;external&quot;&gt;Salesforce AppExchange&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is the culmination of work that began in late 2009 to explore the way in which one could just get the two systems talking.  Daniel and Abhinav&amp;#8217;s first piece of work together was in this space, and since then most of the team has made some contribution &amp;#8211; most notably Jack &amp;#8211; towards the delivery of this to the market.&lt;/p&gt;
+&lt;p&gt;We&amp;#8217;re fielding many queries about this from the UK particularly where both products are very popular.&lt;/p&gt;
+&lt;p&gt;The marketing team at Xero recently helped us &amp;#8220;launch&amp;#8221; the product using a &lt;a href=&quot;http://blog.xero.com/2011/01/integrate-salesforce-and-xero-using-dime/&quot; class=&quot;external&quot;&gt;blog entry&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We&amp;#8217;re really pleased to be at this stage, and are steadily supporting the growing interest in this space.&lt;/p&gt;</content>
+   <author>
+     <name>Abhinav Keswani</name>
+     <uri>http://trineo.co.nz/about.html</uri>
+   </author>
+ </entry>
+ 
+ <entry>
+   <title>Trineo covered on ReadWriteWeb</title>
+   <link href="http://trineo.co.nz/2010/12/Trineo-On-RWW"/>
+   <updated>2010-12-23T00:00:00+13:00</updated>
+   <id>http://trineo.co.nz/2010/12/Trineo-On-RWW</id>
+   <content type="html">&lt;h1&gt;Trineo Bespoke Ruby on Rails Solution covered on ReadWriteWeb&lt;/h1&gt;
+&lt;p&gt;As we respectively relaxed on Christmas eve, Abhinav received an email from a friend in Australia congratulating him on being covered on the very well known technology blog &lt;a href=&quot;http://www.readwriteweb/cloud/2010/12/how-one-company-is-using-ruby.php&quot; class=&quot;external&quot;&gt;ReadWriteWeb&lt;/a&gt;.  He quickly shared the news with Dan &amp;#8211; we were both absolutely taken by surprise.  Talk about a great Christmas present &amp;#8230;&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;http://www.readwriteweb/cloud/2010/12/how-one-company-is-using-ruby.php&quot; class=&quot;external&quot;&gt;ReadWriteWeb article&lt;/a&gt; described the rapid development of a prototype customer portal which Abhinav built.  It was built using the Ruby on Rails framework running on the Heroku platform and it talked to a customer&amp;#8217;s Salesforce org using the Salesforce &lt;span class=&quot;caps&quot;&gt;API&lt;/span&gt;.  Combining Daniel&amp;#8217;s Salesforce mastery and Abhinav&amp;#8217;s Rails skills, the portal was developed in a few days for presentation to the customer.&lt;/p&gt;
+&lt;p&gt;The article extended and recapped the writing of our colleague &lt;a href=&quot;http://diversity.net.nz/when-enterprise-apps-get-agilea-rubysalesforce-case-study/2010/12/15/&quot; class=&quot;external&quot;&gt;Ben Kepes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We&amp;#8217;re humbled and really excited to receive such coverage, and are fielding queries based on this write-up.&lt;/p&gt;</content>
+   <author>
+     <name>Abhinav Keswani</name>
+     <uri>http://trineo.co.nz/about.html</uri>
+   </author>
+ </entry>
+ 
+</feed>

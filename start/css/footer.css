@@ -1,0 +1,35 @@
+@font-face { font-family: "Corbel Bold"; font-weight: normal; src: local("Corbel Bold"), url("/fonts/corbel.ttf"), url(https://nav.heroku.com/fonts/corbelbold.ttf); }
+
+@font-face { font-family: "Corbel"; font-weight: normal; src: local("Corbel"), local("Corbel Regular"), url("/fonts/corbel.ttf"), url(https://nav.heroku.com/fonts/corbel.ttf); }
+
+#trineo-footer { margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: arial, helvetica, sans-serif; vertical-align: baseline; clear: both; overflow: hidden; display: inline-block; font-size: 14px; line-height: 18px; text-align: center; background-color: #425968; padding-bottom: 40px; color: #555555; min-width: 1044px; }
+#trineo-footer div, #trineo-footer span, #trineo-footer object, #trineo-footer iframe, #trineo-footer h1, #trineo-footer h2, #trineo-footer h3, #trineo-footer h4, #trineo-footer h5, #trineo-footer h6, #trineo-footer p, #trineo-footer pre, #trineo-footer a, #trineo-footer abbr, #trineo-footer acronym, #trineo-footer address, #trineo-footer code, #trineo-footer del, #trineo-footer dfn, #trineo-footer em, #trineo-footer img, #trineo-footer dl, #trineo-footer dt, #trineo-footer dd, #trineo-footer ol, #trineo-footer ul, #trineo-footer li, #trineo-footer fieldset, #trineo-footer form, #trineo-footer input, #trineo-footer label, #trineo-footer legend, #trineo-footer caption, #trineo-footer tbody, #trineo-footer tfoot, #trineo-footer thead, #trineo-footer tr { margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: arial, helvetica, sans-serif; vertical-align: baseline; }
+#trineo-footer blockquote, #trineo-footer q { margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: arial, helvetica, sans-serif; vertical-align: baseline; quotes: "" ""; }
+#trineo-footer blockquote:before, #trineo-footer blockquote:after, #trineo-footer q:before, #trineo-footer q:after { content: ""; }
+#trineo-footer th, #trineo-footer td, #trineo-footer caption { margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: arial, helvetica, sans-serif; vertical-align: baseline; text-align: left; font-weight: normal; vertical-align: middle; }
+#trineo-footer table { margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: arial, helvetica, sans-serif; vertical-align: baseline; border-collapse: separate; border-spacing: 0; vertical-align: middle; }
+#trineo-footer a img { border: none; }
+#trineo-footer li { list-style-type: none; }
+#trineo-footer *:focus { outline: 0; }
+#trineo-footer { display: block; }
+#trineo-footer .container { width: 1008px; display: inline-block; margin: 0 auto; padding-top: 9px; padding-right: 18px; padding-left: 18px; text-align: left; }
+#trineo-footer .container:after { content: " "; display: block; height: 0; clear: both; overflow: hidden; visibility: hidden; }
+#trineo-footer .container { display: block; }
+#trineo-footer .sixth { width: 132px; padding: 18px; float: left; }
+#trineo-footer .third { width: 300px; padding: 18px; float: left; }
+#trineo-footer a { text-decoration: none; color: #eee; }
+#trineo-footer a:hover { color: #4fc6e0; }
+#trineo-footer h2 { position: absolute; top: -9999em; }
+#trineo-footer h3 { font-weight: bold; color: #ccc; padding-bottom: 13px; }
+#trineo-footer h3 a { color: #eee; }
+#trineo-footer h3 a:hover { color: gray; }
+#trineo-footer li, #trineo-footer dd { padding-bottom: 6px; }
+#trineo-footer #trineo-footer-pull { text-align: right; }
+#trineo-footer #trineo-footer-pull dt { color: #C9C3E6; }
+#trineo-footer #trineo-footer-pull dt a { color: #eee; }
+#trineo-footer #trineo-footer-pull dt a:hover { color: #4fc6e0; }
+#trineo-footer #trineo-footer-pull dd { padding-bottom: 12px; font-size: 12px; color: #ccc; }
+#trineo-footer #trineo-footer-pull dd a { color: gray; }
+#trineo-footer #trineo-footer-pull #trineo-footer-twitter { font-weight: bold; }
+#trineo-footer #trineo-footer-pull #trineo-footer-twitter span { display: inline-block; overflow: hidden; text-indent: 9999px; width: 90px; height: 18px; margin-top: -4px; line-height: 20px; background-image: url(http://nav.heroku.com/images/footer-twitter.png); background-repeat: no-repeat; background-position: 0 -18px; vertical-align: middle; }
+#trineo-footer #trineo-footer-pull #trineo-footer-twitter:hover span { background-position: 0 0; }
