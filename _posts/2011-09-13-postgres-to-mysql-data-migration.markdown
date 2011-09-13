@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Postgres to MySQL Data Migration"
+title: "Heroku Postgres to MySQL Data Migration"
 date: 2011-09-13 11:42
 categories: 
 - blog
@@ -8,8 +8,7 @@ categories:
 - postgres
 ---
 
-Data Migration from Postgres to MySQL
-================================================================================
+Author [Bry Ashman](/crew.html#ba)
 
 Recently we had to migrate a project from a large postgres database on heroku
 to a MySQL Amazon RDS instance. 
@@ -52,15 +51,16 @@ To export a table to a tsv to '/tmp/table_name.dump.tsv' on the postgres server 
 If you don't have access to the server, there is a \copy command in psql that follows the same syntax
 which allows you to output the file client side. After carrying out the datatype conversions that you
 need. You can import this into mysql using mysqlimport. For example if I have a local file 
-'/tmp/table_name.tsv'. 
+'/tmp/table\_name.tsv'. 
 
 You can import this into mysql as follows:
 
-  mysqlimport --local --compress --user=user --password=password --verbose --host=mysql_host db_name /tmp/table_name.tsv
+    mysqlimport --local --compress --user=user --password=password \
+    --verbose --host=mysql_host db_name /tmp/table_name.tsv
 
 With large exports you may want to split this into mulitple parts. The 'split' utility is very useful for this purpose
 allowing you to take a large file and split it into a set of smaller files. To split a file into 512MB chunks, where
 lines are sigificant you can use the following command to get a set of 512mb output_prefix01, output_prefix02, etc files.
 
-  split -C 512m -d input_file output_prefix
+    split -C 512m -d input_file output_prefix
 
