@@ -1,0 +1,79 @@
+---
+layout: default
+title: Purchase Dime
+styles:
+  - /css/dime-cancel.css
+---
+<div id="form-content">
+  <div class="content">
+    <div class="left">
+      <div class="panel">
+        <h3>Dime Purcahse Canceled</h3>
+        <p>You have canceled your purchase of Dime - Xero Edition.</p>
+        <p>We would appreciate it if you took a moment to let us know why.</p>
+        <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+          <input type="hidden" name="oid" value="00D90000000HZQb"> 
+          <input type="hidden" name="retURL" value="http://trineo.co.nz/contact-success.html"> 
+          <fieldset>
+            <div class='field name'>
+              <label>First Name</label>
+              <input id='first_name' name='first_name' type='text' />
+            </div>
+            <div class='field name'>
+              <label>Last Name</label>
+              <input id='last_name' name='last_name' type='text' />
+            </div>
+            <div class='field'>
+              <label>Company</label>
+              <input id='company' name='company' type='text' />
+            </div>
+            <div class='field'>
+              <label>Email</label>
+              <input id='email' name='email' type='text' />
+            </div>
+            <div class='field'>
+              <label>Phone</label>
+              <input id='phone' name='phone' type='text' />
+            </div>
+          </fieldset>
+          <fieldset>
+            <div class='field'>
+              <label>Why I chose not to purchase Dime - Xero Edition</label>
+              <textarea cols='60' name='description' rows='15'></textarea>
+            </div>
+          </fieldset>
+          <fieldset class='submit'>
+            <input type='submit' class="submit" value='Let Us Know' />
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class='right'>
+        <div class='address'>
+          <p><a href="mailto:info@trineo.co.nz">info@trineo.co.nz</a></p>
+        </div>
+        <div class='address'>
+          <p>New Zealand</p>
+          <p>&nbsp;&nbsp;Christchurch, +64 3 377 4001</p>
+          <p>&nbsp;&nbsp;Auckland, +64 9 889 0035</p>
+          <br/>
+          <p>Australia</p>
+          <p>&nbsp;&nbsp;Sydney, +61 2 8006 2556</p>
+        </div>
+        <div class='address'>
+          <p>Physical Location</p>
+          <p>&nbsp;&nbsp;Unit 2C, 105 Gasson Street</p>
+          <p>&nbsp;&nbsp;Christchurch</p>
+          <p>&nbsp;&nbsp;"(external) Google Maps Link":http://maps.google.co.nz/maps?q=105+gasson+st+christchurch&ie=UTF8&hq=&hnear=105+Gasson+St,+Christchurch+8011,+Canterbury&z=16</p>
+        </div>
+        <div class='address'>
+          <p>Mailing Address</p>
+          <p>&nbsp;&nbsp;PO Box 20042</p>
+          <p>&nbsp;&nbsp;Bishopdale</p>
+          <p>&nbsp;&nbsp;Christchurch, 8543</p>
+          <p>&nbsp;&nbsp;New Zealand</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

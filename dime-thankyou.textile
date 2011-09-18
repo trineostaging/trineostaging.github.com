@@ -1,0 +1,30 @@
+---
+layout: default
+title: Purchase Dime
+---
+<div class='slider' id='intro'>
+  <div class='slider-nav'>
+    <ul>
+      <li>
+        <a href='#dime_xero_edition'>Dime - Xero Edition</a>
+      </li>
+      <li>
+        <img src="/images/xero-black-background.png" alt="Xero Network Partner"/>
+      </li>
+    </ul>
+  </div>
+  <div class='slider-bounds'>
+    <div class='shadow'></div>
+    <div class='slider-canvas'>
+      <div class='slide' id='dime_xero_edition'>
+        <div class='slide-content'>
+          <h2 class='title'>Thankyou for Purchasing Dime - Xero Edition</h2>
+          <div class='description'>
+            <h3>Thankyou for Purchasing Dime - Xero Edition</h3>
+            <p>You can unsubscribe at any time buy returning to the purchase page and clicking "Unsubscribe"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

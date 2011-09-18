@@ -25,6 +25,11 @@ title: Products
             <p>Salesforce CRM users, developers and analysts need not worry about how to retrieve data from their accounting platform and can instead focus on what they will do with it.</p>
             <p>Dime is listed on the <a href="http://appexchange.salesforce.com/listingDetail?listingId=a0N30000003J4HdEAK">Salesforce.com AppExchange</a> - install a trial edition now.</p>
             <p>Find out more or try <a href="http://xero.com">Xero Accounting Software</a> for free.</p>
+            <p>
+              <form action="/purchase-dime.html" method="GET">
+                <input type="submit" class="submit" value="Purchase Dime"/>
+              </form>
+            </p>
           </div>
         </div>
       </div>

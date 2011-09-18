@@ -1,0 +1,18 @@
+#form-content .content .left .panel h3 {
+  color: #008eb5;
+  font-family: "Corbel", sans-serif;
+  line-height: 27px;
+  font-size: 20px;
+  padding-top: 20px; }
+#form-content .content .left .panel p {
+  margin: 0;
+  padding: 0 0 15px 0;
+  font-family: "Corbel", sans-serif;
+  font-size: 18px;
+  line-height: 28px; }
+#form-content .content .left .panel p a {
+  font-family: "Corbel", sans-serif;
+  text-decoration: none;
+  color: #ece2ff; }
+#form-content .content .left .panel p a:hover {
+  color: #99caff; }
