@@ -8,8 +8,8 @@ styles:
   <div class="content">
     <div class="left">
       <div class="panel">
-        <h3>Dime Purcahse Canceled</h3>
-        <p>You have canceled your purchase of Dime - Xero Edition.</p>
+        <h3>Dime Purcahse Cancelled</h3>
+        <p>You have cancelled your purchase of Dime - Xero Edition.</p>
         <p>We would appreciate it if you took a moment to let us know why.</p>
         <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
           <input type="hidden" name="oid" value="00D90000000HZQb"> 
