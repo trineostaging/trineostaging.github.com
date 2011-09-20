@@ -1,0 +1,96 @@
+---
+layout: default
+title: Purchase Dime
+styles:
+  - fancybox/jquery.fancybox-1.3.4.css
+scripts:
+  - fancybox/jquery.fancybox-1.3.4.pack.js
+  - fancybox/jquery.mousewheel-3.0.4.pack.js
+inline-scripts:
+  - $('#orgIdInfo').fancybox();
+---
+<div class='slider' id='intro'>
+  <div class='slider-nav'>
+    <ul>
+      <li>
+        <a href='#dime_xero_edition'>Dime - Xero Edition</a>
+      </li>
+      <li>
+        <img src="/images/xero-black-background.png" alt="Xero Network Partner"/>
+      </li>
+    </ul>
+  </div>
+  <div class='slider-bounds'>
+    <div class='shadow'></div>
+    <div class='slider-canvas'>
+      <div class='slide' id='dime_xero_edition'>
+        <div class='slide-content'>
+          <h2 class='title'>Purchase Dime - Xero Edition</h2>
+          <div class='description'>
+            <h3>Purchase Dime - Xero Edition</h3>
+            <p></p>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_s-xclick"/>
+              <input type="hidden" name="hosted_button_id" value="G8CFRBBM2Y7AA"/>
+              <table>
+                <tr>
+                  <td>
+                    <input type="hidden" name="on0" value=""/>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <select name="os0">
+                      <option value="Monthly">Monthly : $49.00NZD - monthly</option>
+                      <option value="Annual">Annual : $588.00NZD - yearly</option>
+                    </select>
+                    <p></p>
+                    <p></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="hidden" name="on1" value="Salesforce.com Org ID"/>
+                    Salesforce.com Org ID
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><input type="text" name="os1" maxlength="200"/></p>
+                    <p><a id="orgIdInfo" href="#how_to_find_your_salesforce_org_id">How to find your Salesforce.com Org ID</a></p>
+                    <div style="display: none;">
+                      <div id="how_to_find_your_salesforce_org_id">
+                        <h3>How to Find Your Salesforce.com Org ID</h3>
+                        <ol>
+                          <li style="margin-top: 10px;">
+                            Goto "Setup"
+                            <img style="display: block; margin: auto;" src="/images/orgId/setup.png"/>
+                          </li>
+                          <li style="margin-top: 10px;">
+                            Goto "Company Information", under "Administration Setup"
+                            <img style="display: block; margin: auto;" src="/images/orgId/companyInfo.png"/>
+                          </li>
+                          <li style="margin-top: 10px;">
+                            Find your Salesforce.com Organization ID in the Organization Detail
+                            <img style="display: block; margin: auto;" src="/images/orgId/orgId.png"/>
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                    <p></p>
+                  </td>
+                </tr>
+              </table>
+              <input type="hidden" name="currency_code" value="NZD"/>
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
+              <A HREF="https://www.paypal.com/cgi-bin/webscr?cmd=_subscr-find&alias=9RZDKRBCQEJPU" style="vertical-align: top;">
+                <IMG SRC="https://www.paypalobjects.com/en_US/i/btn/btn_unsubscribe_LG.gif" BORDER="0" style="vertical-align: top;">
+              </A>
+           </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
