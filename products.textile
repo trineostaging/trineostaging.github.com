@@ -22,8 +22,9 @@ title: Products
           <div class='description'>
             <h3>Dime - Xero Edition</h3>
             <p>Dime - Xero Edition, is a listed Salesforce application that integrates with Xero - the popular online accounting platform.</p>
-            <p>Salesforce CRM users, developers and analysts need not worry about how to retrieve data from their accounting platform and can instead focus on what they will do with it.</p>
-            <p>Dime is listed on the <a href="http://appexchange.salesforce.com/listingDetail?listingId=a0N30000003J4HdEAK">Salesforce.com AppExchange</a> - install a trial edition now.</p>
+            <p>Dime is available in two versions - Dime for CRM and Dime for Developers</p>
+	<p><span style="color:#ECE2FF">Dime for CRM</span> provides out of the box functionality to send Salesforce.com opportunities to Xero as an invoice. A 30 day trial of Dime for CRM is available <a href="http://tinyurl.com/dimeforcrm">here</a></p>    
+	<p><span style="color:#ECE2FF">Dime for Developers</span> makes all of Xero's API methods available in Salesforce.com enabling powerful specfic integrations to be built. A 30 day trial of Dime for Developers is available <a href="http://tinyurl.com/dimefordev">here</a></p>
             <p>Find out more or try <a href="http://xero.com">Xero Accounting Software</a> for free.</p>
             <p>
               <form action="/purchase-dime.html" method="GET">
