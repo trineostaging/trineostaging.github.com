@@ -11,6 +11,11 @@ title: Products
       <li>
         <img src="/images/xero-black-background.png" alt="Xero Network Partner"/>
       </li>
+      <li>
+	<form style="text-align: center;" action="/purchase-dime.html" method="GET">
+            <input type="submit" class="submit" value="Purchase Dime"/>
+        </form>
+      </li>
     </ul>
   </div>
   <div class='slider-bounds'>
@@ -26,11 +31,6 @@ title: Products
 	<p><span style="color:#ECE2FF">Dime for CRM</span> provides out of the box functionality to send Salesforce.com opportunities to Xero as an invoice. A 30 day trial of Dime for CRM is available <a href="http://tinyurl.com/dimeforcrm">here</a></p>    
 	<p><span style="color:#ECE2FF">Dime for Developers</span> makes all of Xero's API methods available in Salesforce.com enabling powerful specfic integrations to be built. A 30 day trial of Dime for Developers is available <a href="http://tinyurl.com/dimefordev">here</a></p>
             <p>Find out more or try <a href="http://xero.com">Xero Accounting Software</a> for free.</p>
-            <p>
-              <form action="/purchase-dime.html" method="GET">
-                <input type="submit" class="submit" value="Purchase Dime"/>
-              </form>
-            </p>
           </div>
         </div>
       </div>
