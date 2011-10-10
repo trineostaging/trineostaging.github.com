@@ -7,7 +7,7 @@ categories:
 - blog
 - news
 ---
-In the past, attempts have been made to form a Christchurch Salesforce.com Usergroup. It's been well over a year since the last meetup so we'd like to give it another go.
+In the past, attempts have been made to form a Christchurch Salesforce.com Usergroup. It’s been well over a year since the last meetup so we are well overdue to get together.
 
 The Winter 12 release of Salesforce.com goes live in the next week, so what better time to get together and discuss the new features and how we could all take advantage of them.
 
