@@ -137,7 +137,7 @@ title: "Meet the crew"
         <div class='slide-content'>
           <h2 class='title'>Abhinav Keswani</h2>
           <div class='description'>
-            <h3>Director // Principal, Bespoke "(external) Ruby on Rails":http://rubyonrails.org Solutions & "(external) Atlassian":http://atlassian.com Specialist</h3>
+            <h3>Director // Principal, Bespoke "(external) Ruby on Rails":http://rubyonrails.org Solutions</h3>
             <p></p>
             <p>Abhinav has worked for big tech throughout his career, starting out with running high availability web infrastructure for global media and telecommunications companies, and then more recently creating and heading up a team tasked with agile web application development for an Australian telco.</p>
             <p>Having been born in India, raised in Australia (Sydney) and travelled for years cumulatively, Abhinav brings a broad and diverse perspective to the crew.</p>
