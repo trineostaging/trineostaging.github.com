@@ -6,6 +6,7 @@ comments: true
 categories: 
 - blog
 - news
+- success
 ---
 
 Partnering with the sublime business team at [Rush Labs](http://rushlabs.com), we have been working on the creation and delivery of [MarketScout](http://marketscout.com.au) since August 2010.
