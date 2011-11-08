@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Does Private Cloud Exist?"
+title: "Does the Private Cloud Exist?"
 date: 2011-11-08 17:44
 comments: false
 categories: 
