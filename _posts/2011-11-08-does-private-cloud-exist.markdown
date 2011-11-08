@@ -15,7 +15,7 @@ So does private cloud really exist? YES!
 
 But I've never heard of it's existence.....
 
-By definition a private cloud should have the same characteristics as a public cloud but be private. A private cloud is:
+By definition a private cloud should have the same characteristics as a public cloud but be private. A public cloud is:
 * Scalable
 * Multi-Tenant
 * Fast to provision
