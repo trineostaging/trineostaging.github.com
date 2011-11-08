@@ -6,9 +6,9 @@ comments: false
 categories: 
 - blog
 - news
-- cake
-- ninjabread
 ---
+
+Author [Luke McFarlane](http://trineo.co.nz/crew.html#lm)
 
 In my [previous blog post](/2011/08/javascript-remoting/) I briefly explained how Javascript remoting can be used in Force.com to provide fast, asynchronous communication between client & server. This time I would like to explain how it works at more of a technical level.
 
