@@ -2,79 +2,83 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
       <loc>http://trineo.co.nz/about.html</loc>
-      <lastmod>2011-08-30</lastmod>
+      <lastmod>2011-11-08</lastmod>
   </url>
   <url>
       <loc>http://trineo.co.nz/archive.html</loc>
-      <lastmod>2011-08-30</lastmod>
+      <lastmod>2011-11-08</lastmod>
   </url>
   <url>
       <loc>http://trineo.co.nz/atom.xml</loc>
-      <lastmod>2011-08-30</lastmod>
+      <lastmod>2011-11-08</lastmod>
   </url>
   <url>
       <loc>http://trineo.co.nz/blog.html</loc>
-      <lastmod>2011-08-30</lastmod>
+      <lastmod>2011-11-08</lastmod>
   </url>
   <url>
       <loc>http://trineo.co.nz/contact-success.html</loc>
-      <lastmod>2011-08-30</lastmod>
+      <lastmod>2011-11-08</lastmod>
   </url>
   <url>
       <loc>http://trineo.co.nz/contact.html</loc>
-      <lastmod>2011-08-30</lastmod>
+      <lastmod>2011-11-08</lastmod>
   </url>
   <url>
       <loc>http://trineo.co.nz/crew.html</loc>
-      <lastmod>2011-10-21</lastmod>
+      <lastmod>2011-11-08</lastmod>
   </url>
   <url>
       <loc>http://trineo.co.nz/dime-cancel.html</loc>
-      <lastmod>2011-10-19</lastmod>
+      <lastmod>2011-11-08</lastmod>
   </url>
   <url>
       <loc>http://trineo.co.nz/dime-thankyou.html</loc>
-      <lastmod>2011-10-19</lastmod>
+      <lastmod>2011-11-08</lastmod>
   </url>
   <url>
       <loc>http://trineo.co.nz/dime-xero-edition/index.html</loc>
-      <lastmod>2011-08-30</lastmod>
+      <lastmod>2011-11-08</lastmod>
   </url>
   <url>
       <loc>http://trineo.co.nz/index.html</loc>
-      <lastmod>2011-08-30</lastmod>
+      <lastmod>2011-11-08</lastmod>
   </url>
   <url>
       <loc>http://trineo.co.nz/jobs.html</loc>
-      <lastmod>2011-08-30</lastmod>
+      <lastmod>2011-11-08</lastmod>
   </url>
   <url>
       <loc>http://trineo.co.nz/news.html</loc>
-      <lastmod>2011-08-30</lastmod>
+      <lastmod>2011-11-08</lastmod>
   </url>
   <url>
       <loc>http://trineo.co.nz/products.html</loc>
-      <lastmod>2011-10-19</lastmod>
+      <lastmod>2011-11-08</lastmod>
   </url>
   <url>
       <loc>http://trineo.co.nz/purchase-dime.html</loc>
-      <lastmod>2011-10-19</lastmod>
+      <lastmod>2011-11-08</lastmod>
   </url>
   <url>
       <loc>http://trineo.co.nz/salesforce-com-services.html</loc>
-      <lastmod>2011-09-11</lastmod>
+      <lastmod>2011-11-08</lastmod>
   </url>
   <url>
       <loc>http://trineo.co.nz/services.html</loc>
-      <lastmod>2011-08-30</lastmod>
+      <lastmod>2011-11-08</lastmod>
   </url>
   <url>
       <loc>http://trineo.co.nz/success.html</loc>
-      <lastmod>2011-08-30</lastmod>
+      <lastmod>2011-11-08</lastmod>
   </url>
   <url>
       <loc>http://trineo.co.nz/why.html</loc>
-      <lastmod>2011-08-30</lastmod>
+      <lastmod>2011-11-08</lastmod>
+  </url>
+  <url>
+      <loc>http://trineo.co.nz/2011/11/javascript-remoting-how-it-works</loc>
+      <lastmod>2011-11-08</lastmod>
   </url>
   <url>
       <loc>http://trineo.co.nz/2011/11/proudly_announcing_railscamp_2012</loc>
