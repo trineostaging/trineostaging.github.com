@@ -9,7 +9,7 @@ categories:
 ---
 Author [Dan Fowlie](http://trineo.co.nz/crew.html#df)
 
-The term 'private cloud' has been used a lot in the last year or so. Some say the private cloud doesn't exist but in most cases the term is being used to simply relabel the status quo. Cloud is the buzz word so traditional vendors are jumping in the calling their datacentre a 'private cloud'. 
+The term 'private cloud' has been used a lot in the last year or so. Some say the private cloud doesn't exist but in most cases the term is being used to simply relabel the status quo. Cloud is the buzz word so traditional vendors are jumping in and calling their datacentre a 'private cloud'. 
 
 So does private cloud really exist? YES!
 
