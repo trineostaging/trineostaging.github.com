@@ -21,6 +21,9 @@ title: "Meet the crew"
         <a href='#jg' class="active">Jack Galilee</a>
       </li>
       <li>
+        <a href='#gs' class="active">Greg Signal</a>
+      </li>
+      <li>
         <a href='#mm' class="active">Morgan Miller</a>
       </li>
       <li>
@@ -88,11 +91,24 @@ title: "Meet the crew"
         <div class='slide-content'>
           <h2 class='title'>Jack Galilee</h2>
           <div class='description'>
-            <h3>Software Developer // "(external) Salesforce.com":http://salesforce.com, "(external) Force.com":http://force.com Solutions</h3>
+            <h3>Software Developer // "(external) Force.com":http://force.com and Bespoke Solutions</h3>
             <p></p>
             <p>Working with us on a part time basis through his A grade Computer Science degree at the "(external) University of Canterbury":http://www.canterbury.ac.nz/, Jack has cemented his position as a key team member.</p>
             <p>Most recently he was heavily involved in the creation and delivery of our latest product - the "Dime":/products.html#dime Xero Edition connectory.</p>
+            <p>We proudly welcome Jack now as a full time team member, and particularly to the bespoke solutions team.</p>
             <p>Another Sydney boy (as is Abhinav), Jack brings some trans Tasman balance to the team!</p>
+          </div>
+        </div>
+      </div>
+      <div class='slide' id='gs'>
+        <div class='slide-content'>
+          <h2 class='title'>Greg Signal</h2>
+          <div class='description'>
+            <h3>Intern Developer // Bespoke Solutions</h3>
+            <p></p>
+            <p>Studying an engineering degree at the University of Canterbury, Greg discovered a passion for web development in 2010. Greg has taken an interest in Ruby on Rails and has joined the team as the new intern.</p>
+            <p>With a healthy fascination in the art of espresso and a Rocket on hand, he is always searching for the perfect shot. This same drive carries over into his work and results in polished interfaces and clean code.</p>
+            <p>Can't stop the Signal...</p>
           </div>
         </div>
       </div>
