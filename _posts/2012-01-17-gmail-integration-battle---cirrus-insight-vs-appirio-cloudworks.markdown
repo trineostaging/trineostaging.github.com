@@ -7,7 +7,8 @@ categories:
 - blog
 - news
 ---
-Author: [Dan Fowlie](http://trineo.co.nz/crew.html#df)
+
+Author - [Dan Fowlie](http://trineo.co.nz/crew.html#df)
 
 For those who believe in the cloud the combination of using Google Apps for email and Salesforce.com for CRM is all too common. Here at Trineo we've been using both products for years but the integration of the two products over that time has been sadly lacking. Salesforce.com's own 'integration' with Gmail is far too cumbersome requiring users to bcc an email to a specific address. At last two partners have brought good integrations to market.
 
