@@ -20,7 +20,7 @@ The integration works as a browser extension so is simple to install but only wo
 
 Cirrus costs US$9 / user / month but has an introductory special
 
-[CirrusInsight](http://www.cirrusinsight.com/)
+[Install CirrusInsight](http://www.cirrusinsight.com/)
 
 
 Appirio Cloudworks
@@ -34,7 +34,7 @@ In addition to Gmail, Cloudworks provides a sidebar for Google Calendar.
 
 Cloudworks costs US$4 / user / month for Standard Edition and US$6 / user / month for Enterprise Edition.
 
-[Cloudworks](https://www.google.com/enterprise/marketplace/viewListing?productListingId=77+1312804298559105341&pli=1)
+[Install Cloudworks](https://www.google.com/enterprise/marketplace/viewListing?productListingId=77+1312804298559105341&pli=1)
 
 
 Conclusion
