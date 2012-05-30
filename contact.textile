@@ -54,7 +54,7 @@ title: About
           <p>&nbsp;&nbsp;Auckland, +64 9 889 0035</p>
           <br/>
           <p>Australia</p>
-          <p>&nbsp;&nbsp;Sydney, +61 2 8006 2556</p>
+          <p>&nbsp;&nbsp;Sydney, +61 2 8003 3874</p>
         </div>
         <div class='address'>
           <p>Physical Location</p>
